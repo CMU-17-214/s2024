@@ -15,23 +15,14 @@ jobs:
       run: |
         echo generate main html page in _site/
         mkdir _site
-        #        cd lectures
-        #npm install --no-optional
-        #cd ..
 
     - name: Generate main page
       run: |
         cp .assets/template.html _site/index.html
         cp .assets/style.css _site/
-        #sed 's/\](https:\/\/mlip-cmu.github.io\/s2023\/slides\/\([^\(]*\)\.html) (\[/\](https:\/\/mlip-cmu.github.io\/s2023\/slides\/\1.html) ([md](https:\/\/github.com\/mlip-cmu\/s2023\/blob\/main\/lectures\/\1.md), [pdf](https:\/\/mlip-cmu.github.io\/s2023\/slides\/\1.pdf), \[/' < schedule.md |         sed 's/\](https:\/\/mlip-cmu.github.io\/s2023\/slides\/\([^\(]*\)\.html) *|/\](https:\/\/mlip-cmu.github.io\/s2023\/slides\/\1.html) ([md](https:\/\/github.com\/mlip-cmu\/s2023\/blob\/main\/lectures\/\1.md), [pdf](https:\/\/mlip-cmu.github.io\/s2023\/slides\/\1.pdf)) |/'  > schedule_.md
-        #sed -i -e '/^\[Schedule\]/r schedule_.md' README.md
         npx marked@4.3.0 --gfm -i README.md >> _site/index.html
         cat .assets/template_end.html >> _site/index.html
-        #cp *.svg _site/
-        #cp *.png _site/
         mkdir _site/assignments
-        #cp assignments/*.html _site/assignments/
-        #rm schedule_.md
         cp learninggoals.html _site/
 
     - name: Push to gh-pages
