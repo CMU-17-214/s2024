@@ -12,15 +12,17 @@ After completing this course, students will:
 - Have experience testing and analyzing your software
 - Understand principles of concurrency and distributed systems
 
-See a more detailed list of [learning goals](https://cmu-17-214.github.io/f2023/learninggoals.html) describing what we want students to know or be able to do by the end of the semester. We evaluate whether learning goals have been achieved through assignments and exams.
+See a more detailed list of [learning goals](https://cmu-17-214.github.io/s2024/learninggoals.html) describing what we want students to know or be able to do by the end of the semester. We evaluate whether learning goals have been achieved through assignments and exams.
 
-### Coordinates 
+### Coordinates
 
-Tu/Th 2:00 - 3:20 p.m. in TEP 1403
+Tu/Th 3:30 - 4:50 p.m. in WEH 7500
 
-**[Christian Kaestner](https://www.cs.cmu.edu/~ckaestne/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 345, office hours: see calendar
+**[Jonathan Aldrich](https://www.cs.cmu.edu/~aldrich/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 422, office hours: see calendar
 
-**[Jeremy Lacomis](https://jeremylacomis.com/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 415, office hours: see calendar
+**[Charlie Garrod](https://www.cs.cmu.edu/~charlie/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 343, office hours: see calendar
+
+**[Jeremy Lacomis](https://jeremylacomis.com/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 362, office hours: see calendar
 
 Our TAs also provide an additional 15h of office hours each week; see details in the calendar.
 
@@ -49,304 +51,304 @@ The schedule below reflects our current plans, but will be updated throughout th
   </thead>
   <tbody>
     <tr class="">
-      <td>Tue, Aug 29</td>
-      <td><a href="https://docs.google.com/presentation/d/1vRc_5v3i0awRzYNhqqLF1Szrf9mHA1QYEjKD-T8svX4/edit#slide=id.p1">Introduction</a></td>
+      <td>Tue, Jan 16</td>
+      <td>Introduction</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Aug 30</td>
-      <td><span class="rec">Lab 1</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab01.md">Course Infrastructure Setup</a></td>
+      <td>Wed, Jan 17</td>
+      <td><span class="rec">Lab 1</span> Course Infrastructure Setup</a></td>
       <td></td>
     </tr>
     <tr class="">
-      <td>Thu, Aug 31</td>
-      <td><a href="https://docs.google.com/presentation/d/1dPL-89rqMJatWxV2y3yl4RATtDDg2Jm3LefjQtZWSgk/edit?usp=sharing">OO basics, Dynamic dispatch, Encapsulation</a></td>
+      <td>Thu, Jan 18</td>
+      <td>OO basics, Dynamic dispatch, Encapsulation</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr class="">
-      <td>Tue, Sep 5</td>
-      <td><a href="https://docs.google.com/presentation/d/1wKHmJk6a3_nrXbuXRmxFpMQIvtDsOf_T5nr-0ojhApc/edit?usp=sharing">IDEs, Build system, Continuous Integration, Libraries</a></td>
+      <td>Tue, Jan 23</td>
+      <td>IDEs, Build system, Continuous Integration, Libraries</td>
       <td>Required: <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019578256404436">Effective Java, Items 15 and 16</td>
     </tr>
     <tr>
-      <td>Wed, Sep 6</td>
-      <td><span class="rec">Lab 2</span>  <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab02.md">Encapsulation</a></td>
+      <td>Wed, Jan 24</td>
+      <td><span class="rec">Lab 2</span> Encapsulation</td>
       <td></td>
     </tr>
     <tr class="">
-      <td>Thu, Sep 7</td>
-      <td><a href="https://docs.google.com/presentation/d/1ubOFPv90leUJvq2nWkcoTBLKpZwBpk-oP2fdan4wdV8/edit?usp=sharing">Specifications and Unit Testing, Exceptions</a></td>
+      <td>Thu, Jan 25</td>
+      <td>Specifications and Unit Testing, Exceptions</td>
       <td>Recommended: <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991000042699704436">Java Precisely</a> (Ch 3, 4, 9, 10, 11); <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576570404436">JavaScript: The Good Parts</a> (Ch. 3, 4, 9), <a href="https://www.typescriptlang.org/docs/handbook/intro.html">TypeScript Handbook</a> (Basics, Everyday Types, Object Types)</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Mon, Sep 11</td>
-      <td><span class="assignment"><span class="hw">HW 1 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw1.md">Flash cards</a> (Intro to OO and Libraries)</td>
+      <td>Mon, Jan 29</td>
+      <td><span class="assignment"><span class="hw">HW 1 due</span>Flash cards (Intro to OO and Libraries)</td>
       <td></td>
     </tr>
     <tr class="">
-      <td>Tue, Sep 12</td>
-      <td><a href="https://docs.google.com/presentation/d/17AHtUe8c4K_negMF1EAW8c7t1UHD7nU6ipd-csegL14/edit?usp=sharing">Test case design</a></td>
+      <td>Tue, Jan 30</td>
+      <td>Test case design</td>
       <td><a href="https://www.testim.io/blog/unit-testing-best-practices/">Unit Testing Best Practices</td>
     </tr>
     <tr>
-      <td>Wed, Sep 13</td>
-      <td><span class="rec">Lab 3</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab03.md">Unit testing</a></td>
+      <td>Wed, Jan 31</td>
+      <td><span class="rec">Lab 3</span> Unit testing</a></td>
       <td></td>
     </tr>
     <tr class="">
-      <td>Thu, Sep 14</td>
-      <td><a href="https://docs.google.com/presentation/d/1Nn0wdo9P18k99FhOKzGZF4s1atWdq1QOXmktYmAhFdI/edit?usp=sharing">Object-oriented analysis and UML</a></td>
+      <td>Thu, Feb 1</td>
+      <td>Object-oriented analysis and UML</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Mon, Sep 18</td>
-      <td><span class="assignment"><span class="hw">HW 2 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw2.md">Testing</a></td>
+      <td>Mon, Feb 5</td>
+      <td><span class="assignment"><span class="hw">HW 2 due</span> Testing</td>
       <td></td>
     </tr>
     <tr class="">
-      <td>Tue, Sep 19</td>
-      <td><a href="https://docs.google.com/presentation/d/1iLHBEwPprITyfepdJa6MxGOpAMhLcNkSd02-wm6jgaQ/edit?usp=sharing">Responsibility assignment</a></td>
+      <td>Tue, Feb 6</td>
+      <td>Responsibility assignment</td>
       <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-16</td>
     </tr>
     <tr>
-      <td>Wed, Sep 20</td>
-      <td><span class="rec">Lab 4</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab04.md">Design and UML</a></td>
+      <td>Wed, Feb 7</td>
+      <td><span class="rec">Lab 4</span> Design and UML</td>
       <td></td>
     </tr>
     <tr class="">
-      <td>Thu, Sep 21</td>
-      <td><a href="https://docs.google.com/presentation/d/1668iEEBFYLL6cOzg9BilP0_k_8QHZY4zTpRJ4OhzmCE/edit?usp=sharing">Inheritance & Delegation</a></td>
+      <td>Thu, Feb 8</td>
+      <td>Inheritance & Delegation</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Tue, Sep 26</td>
-      <td><a href="https://docs.google.com/presentation/d/16tdCHJV4Ku3bB9XYQWnl9EUESMvJ7vlA-zAa-2z1ZXg/edit?usp=sharing">Design Patterns</a></td>
+      <td>Tue, Feb 13</td>
+      <td>Design Patterns</td>
       <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 17-18</td></td>
     </tr>
     <tr class="">
-      <td>Wed, Sep 27</td>
-      <td><span class="rec">Lab 5</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab05.md">Inheritance and Delegation</a></td>
+      <td>Wed, Feb 14</td>
+      <td><span class="rec">Lab 5</span> Inheritance and Delegation</td>
       <td></td>
     </tr>
     <tr>
-      <td>Thu, Sep 28</td>
-      <td><a href="https://docs.google.com/presentation/d/1kOIg7km28x59asMUkkMh-MSnbxrQq4kcfITD_2i-9Nw/edit?usp=sharing">Refactoring and Anti-patterns</a></td>
+      <td>Thu, Feb 15</td>
+      <td>Refactoring and Anti-patterns</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Mon, Oct 2</td>
-      <td><span class="assignment"><span class="hw">HW 3a due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw3.md">Santorini: Intro to Design</a></td>
+      <td>Mon, Feb 19</td>
+      <td><span class="assignment"><span class="hw">HW 3a due</span> Santorini: Intro to Design</td>
       <td></td>
     </tr>
     <tr class="">
-      <td>Tue, Oct 3</td>
-      <td><a href="https://docs.google.com/presentation/d/1UwOwQaCNsmRiubei6jqkrwX5IA_fWaHL4TYgnFXFCvE/edit?usp=sharing">Introduction to GUIs and Concurrency</a></td>
+      <td>Tue, Feb 20</td>
+      <td>Introduction to GUIs and Concurrency</td>
       <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
     </tr>
     <tr>
-      <td>Wed, Oct 4</td>
-      <td><span class="rec">Lab 6</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab06.md">Anti-patterns and Refactoring</a></td>
+      <td>Wed, Feb 21</td>
+      <td><span class="rec">Lab 6</span> Anti-patterns and Refactoring</td>
       <td></td>
     </tr>
     <tr class="midterm">
-      <td>Thu, Oct 5</td>
+      <td>Thu, Feb 22</td>
       <td class="midterm">Midterm 1</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Mon, Oct 9</td>
-      <td><span class="assignment"><span class="hw">HW 3b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw3.md">Santorini: Design feedback</a></td>
+      <td>Mon, Feb 26</td>
+      <td><span class="assignment"><span class="hw">HW 3b due</span> Santorini: Design feedback</td>
       <td></td>
     </tr>
     <tr>
-      <td>Tue, Oct 10</td>
-      <td><a href="https://docs.google.com/presentation/d/1MYznh142GLDOjTiruuP475bD-EpPpYcJbYXLWJJ7KHU/edit?usp=sharing">Asynchrony in JavaScript</a></td>
+      <td>Tue, Feb 27</td>
+      <td>Asynchrony in JavaScript</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Oct 11</td>
-      <td><span class="rec">Lab 7</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab07.md">GUI intro </a></td>
+      <td>Wed, Feb 28</td>
+      <td><span class="rec">Lab 7</span> GUI intro</td>
     </tr>
     <tr>
-      <td>Thu, Oct 12</td>
-      <td><a href="https://docs.google.com/presentation/d/1fOKIktVlnDzdCzNcOj-QLD8wqodA4d_fhzhixFXPzKg/edit?usp=sharing">Concurrency and Hazards</a></td>
+      <td>Thu, Feb 29</td>
+      <td>Concurrency and Hazards</td>
       <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Concurrency model and the event loop</a> + <a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5">How JavaScript works</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Tue, Oct 17</td>
-      <td class="break">No class, Fall Break</td>
+      <td>Tue, Mar 5</td>
+      <td class="break">No class, Spring Break</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Oct 18</td>
-      <td class="break">No lab, Fall Break</td>
+      <td>Wed, Mar 6</td>
+      <td class="break">No lab, Spring Break</td>
       <td></td>
     </tr>
     <tr>
-      <td>Thu, Oct 19</td>
-      <td class="break">No class, Fall Break</td>
+      <td>Thu, Mar 7</td>
+      <td class="break">No class, Spring Break</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Tue, Oct 24</td>
-      <td><span class="assignment"><span class="hw">HW 4 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw4.md">Refactoring</a></td>
+      <td>Tue, Mar 12</td>
+      <td><span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
       <td></td>
     </tr>
     <tr>
-      <td>Tue, Oct 24</td>
-      <td><a href="https://docs.google.com/presentation/d/1RVh8ayQszjt0hHV2Cq8TJglEVkrS1TWKIn0gs9F3XvI/edit?usp=sharing">Concurrency: Reactive Programming</a></td>
+      <td>Tue, Mar 12</td>
+      <td>Concurrency: Reactive Programming</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Oct 25</td>
-      <td><span class="rec">Lab 8</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab08.md">Concurrency & Promises</a></td>
+      <td>Wed, Mar 13</td>
+      <td><span class="rec">Lab 8</span> Concurrency & Promises</td>
       <td></td>
     </tr>
-    <td>Thu, Oct 26</td>
-      <td><a href="https://docs.google.com/presentation/d/1tTkDT6dkDBFilVm9M_hYsde6FKx_mfKOs9d4yJNnmJU/edit?usp=sharing">Distributed Systems -- Events everywhere</a></td>
+    <td>Thu, Mar 14</td>
+      <td>Distributed Systems -- Events everywhere</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Mon, Oct 30</td>
-      <td><span class="assignment"><span class="hw">HW 3c due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw3.md">Santorini: Final design</a></td>
+      <td>Mon, Mar 18</td>
+      <td><span class="assignment"><span class="hw">HW 3c due</span> Santorini: Final design</td>
       <td></td>
     </tr>
     <tr>
-      <td>Tue, Oct 31</td>
-      <td><a href="https://docs.google.com/presentation/d/1wF0pyEZqycWNUnV75QyGTI9bDrtBMIJsnLUVVPLCSTw">Design for Robustness & Distributed Systems</a></td>
+      <td>Tue, Mar 19</td>
+      <td>Design for Robustness & Distributed Systems</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Nov 1</td>
-      <td><span class="rec">Lab 9</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab09.md">ReactJS</a></td>
+      <td>Wed, Mar 20</td>
+      <td><span class="rec">Lab 9</span> ReactJS</td>
       <td></td>
     </tr>
     <tr>
-      <td>Thu, Nov 2</td>
-      <td><a href="https://docs.google.com/presentation/d/1vL7TKwtNifC26-nw9a1P2eY8UpyrKgS3Wyqd15yj174/">Libraries and Frameworks</a></td>
+      <td>Thu, Mar 22</td>
+      <td>Libraries and Frameworks</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Mon, Nov 6</td>
-      <td><span class="assignment"><span class="hw">HW 5 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw5.md">Concurrency</a></td>
+      <td>Mon, Mar 25</td>
+      <td><span class="assignment"><span class="hw">HW 5 due</span> Concurrency</td>
       <td></td>
     </tr>
     <tr>
-      <td>Tue, Nov 7</td>
-      <td class="break">No class, Democracy Day</td>
+      <td>Tue, Mar 26</td>
+      <td><bf>Need Class Here</bf></td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Nov 8</td>
-      <td><span class="rec">Lab 10</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab10.md">Test Double (Fakes, Mocks & Stubs)</a></td>
+      <td>Wed, Mar 27</td>
+      <td><span class="rec">Lab 10</span> Test Double (Fakes, Mocks & Stubs)</td>
       <td></td>
     </tr>
     <tr class="midterm">
-      <td>Thu, Nov 9</td>
+      <td>Thu, Mar 28</td>
       <td class="midterm">Midterm 2</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Tue, Nov 14</td>
-      <td><a href="https://docs.google.com/presentation/d/16BwjTR_FR_C3v2LyoekxXN5SxmVaGyEM4XBRbQiD128/edit?usp=sharing">API Design</a></td>
+      <td>Tue, Apr 2</td>
+      <td>API Design</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Nov 15</td>
-      <td><span class="rec">Lab 11</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab11.md">Frameworks/Extensibility</td>
+      <td>Wed, Apr 3</td>
+      <td><span class="rec">Lab 11</span> Frameworks/Extensibility</td>
       <td></td>
     </tr>
     <tr>
-      <td>Thu, Nov 16</td>
-      <td><a href="https://docs.google.com/presentation/d/1EyN1tzfejvkWQAEMD2AL1G8PwyROEaA2htJjvm1GwYQ/edit?usp=sharing">Organizing Systems at Scale: Modules</a></td>
-      <td></td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td>Tue, Nov 21</td>
-      <td><span class="assignment"><span class="hw">HW 6a due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw6.md">Santorini: User Interface</a></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tue, Nov 21</td>
-      <td>No class, Thanksgiving</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Wed, Nov 22</td>
-      <td class="break">No lab, Thanksgiving</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Thu, Nov 23</td>
-      <td class="break">No class, Thanksgiving</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td>Tue, Nov 28</td>
-      <td><a href="https://docs.google.com/presentation/d/1i-DCXywcBRbn-llGnM-5M9vbu0hTFP6Op-pyPek8nBo/edit?usp=sharing">Supply Chain Security and Sustainability</a></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Wed, Nov 29</td>
-      <td><span class="rec">Lab 12</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab12.md">Cloud Deployment</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Thu, Nov 30</td>
-      <td><a href="https://docs.google.com/presentation/d/1v2RUuqW6gMkFu9NdjtlN3rGyuVaxpTIBwprVOAPaVKw/edit?usp=sharing">Static vs dynamic typing, static analysis</a></td>
+      <td>Thu, Apr 4</td>
+      <td>Organizing Systems at Scale: Modules</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td>Tue, Dec 5</td>
-      <td><a href="https://docs.google.com/presentation/d/1ZqH4ezaFherraPR0clObsHifnBkRQeHVU_ZltEECxK4/edit?usp=sharing">DevOps</a></td>
+      <td>Tue, Apr 9</td>
+      <td><span class="assignment"><span class="hw">HW 6a due</span> Santorini: User Interface</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wed, Dec 6</td>
-      <td><span class="rec">Lab 13</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab13.md">Design Pattern Review</a></td>
+      <td>Tue, Apr 9</td>
+      <td class="break">No class, Carnival</td>
       <td></td>
     </tr>
     <tr>
-      <td>Thu, Dec 7</td>
-      <td><span class="assignment"><span class="hw">HW 6b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw6.md">Santorini: God Cards</a></td>
+      <td>Wed, Apr 10</td>
+      <td class="break">No lab, Carnival</td>
       <td></td>
     </tr>
     <tr>
-      <td>Thu, Dec 7</td>
-      <td><a href="https://docs.google.com/presentation/d/1ZgD_LdPK3X1oP5viC2Gzh3SO9y-lRsRBPzDre9pTw5g/edit?usp=sharing">Finale: Toward SE, Teams, Process</a></td>
+      <td>Thu, Apr 11</td>
+      <td class="break">No class, Carnival</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 16</td>
+      <td>Supply Chain Security and Sustainability</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 17</td>
+      <td><span class="rec">Lab 12</span> Cloud Deployment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 18</td>
+      <td>Static vs dynamic typing, static analysis</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 23</td>
+      <td>DevOps</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 24</td>
+      <td><span class="rec">Lab 13</span> Design Pattern Review</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 25</td>
+      <td><span class="assignment"><span class="hw">HW 6b due</span> Santorini: God Cards</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 25</td>
+      <td>Finale: Toward SE, Teams, Process</td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr class="midterm">
-      <td>Thu, Dec 14<br />8:30-11:30am</td>
+      <td>TBD</td>
       <td>Final exam</td>
       <td></td>
     </tr>
@@ -360,15 +362,15 @@ The schedule below reflects our current plans, but will be updated throughout th
 Instructors: [Christian Kaestner](https://www.cs.cmu.edu/~ckaestne/) [ckaestne], and [Jeremy Lacomis](https://jeremylacomis.com/) [jlacomis]
 
 
-TAs: Duan Liang [duanlian], 
-Eileen Weizhen Xiao [ewxiao], 
-Haoqin Yang [haoqiny], 
-Terry (Jielin) Li [jielinl], 
-Lara Marinov [lmarinov], 
-Sitong Shang [sitongs], 
-Tianyi Peng [tianyip], 
-Connie (Wenjun) Zhou [wenjunz2], 
-Kaylee (Yushin) Park [yushinp], 
+TAs: Duan Liang [duanlian],
+Eileen Weizhen Xiao [ewxiao],
+Haoqin Yang [haoqiny],
+Terry (Jielin) Li [jielinl],
+Lara Marinov [lmarinov],
+Sitong Shang [sitongs],
+Tianyi Peng [tianyip],
+Connie (Wenjun) Zhou [wenjunz2],
+Kaylee (Yushin) Park [yushinp],
 Zixuan Zheng [zzheng3]
 
 
@@ -402,15 +404,15 @@ Evaluation will be based on the following approximate percentages:
 - 10% labs
 - 10% participation and quizzes
 
-This course does not have a fixed letter grade policy; i.e., the final letter grades will **not** be A=90-100%, B=80-90%, etc. 
+This course does not have a fixed letter grade policy; i.e., the final letter grades will **not** be A=90-100%, B=80-90%, etc.
 
 **Homework grading and regrading.** We try to be transparent in our rubrics in our assignments. Feel free to ask instructors or TAs clarification questions about the rubrics before the assignment is due. If you disagree with a grade, please submit a regrade request within 7 days on Gradescope. Regrade requests need a justification, explaining why our assessment is inconsistent with the rubric. Regrade requests without such justification will be closed.
 
-Each student can *resubmit* any *one* assignment milestone and it will be regraded as if it was the first submission (see below). 
+Each student can *resubmit* any *one* assignment milestone and it will be regraded as if it was the first submission (see below).
 
-**Participation and quizzes.** You should expect a quiz at the start of nearly every lecture and often additional in-class activities within the lecture. When a reading assignment is given, the quiz will typically touch on the content from the reading material. Otherwise (and sometimes in addition), the quiz centers around the content from the most recent lecture or two. A quiz will typically have 1-2 questions and is graded pass/fail. 
+**Participation and quizzes.** You should expect a quiz at the start of nearly every lecture and often additional in-class activities within the lecture. When a reading assignment is given, the quiz will typically touch on the content from the reading material. Otherwise (and sometimes in addition), the quiz centers around the content from the most recent lecture or two. A quiz will typically have 1-2 questions and is graded pass/fail.
 
-**Labs.** Labs will be graded on a pass/fail basis during recitations. You will have a chance during recitation to improve your solution. See a description [here](https://github.com/CMU-17-214/f2023/blob/main/labs.md).
+**Labs.** Labs will be graded on a pass/fail basis during recitations. You will have a chance during recitation to improve your solution. See a description [here](https://github.com/CMU-17-214/f2024/blob/main/labs.md).
 
 **Late work.** We understand that normal life events, including projects and exams in other courses and technical difficulties out of your control, can interfere with your ability to complete your work on time or attend lectures and recitations. Our philosophy is that our late work policy includes built-in flexibility but that the policy will be uniformly applied to all students in all circumstances. Exceptions to this policy will be made only with explicit accommodations, almost always involving a family or medical emergency with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf.
 
@@ -436,7 +438,7 @@ This course, including recitations, is marked by the registrar as IPE ("delivere
 
 We strongly recommend attending lectures. We have regular in-class activities and quizzes that we expect you to complete in class. Attending recitations is required for grading labs.
 
-In case of illness, quarantine, or other exceptional circumstances, we may be able to share recordings of lectures upon request on a case by case basis. Recordings may not be shared to protect the FERPA rights of all students in the classroom. 
+In case of illness, quarantine, or other exceptional circumstances, we may be able to share recordings of lectures upon request on a case by case basis. Recordings may not be shared to protect the FERPA rights of all students in the classroom.
 
 
 
@@ -446,7 +448,7 @@ In case of illness, quarantine, or other exceptional circumstances, we may be ab
 
 ### **Textbooks**
 
-This course will occasionally assign **mandatory readings**, from the two text books below. The CMU library has both physical and electronic copies of these books. You can access *all* of these books for free electronically through the CMU library. 
+This course will occasionally assign **mandatory readings**, from the two text books below. The CMU library has both physical and electronic copies of these books. You can access *all* of these books for free electronically through the CMU library.
 
 - Larman, Craig. [*Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*](https://bookshop.org/books/applying-uml-and-patterns-an-introduction-to-object-oriented-analysis-and-design-and-iterative-development/9780131489066), 3rd Edition. Prentice Hall. ISBN 0-13-148906-2. [[CMU Library](https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576227704436)] This book describes basics of object-oriented design, responsibility assignment, and some design patterns used in the course. We will use the third edition, which covers the course's topics in more details than earlier editions. We will assign select chapters.
 - Bloch, Joshua. [*Effective Java*](https://bookshop.org/books/effective-java-9780134685991/9780134685991), Third Edition. Addison-Wesley, ISBN 978-0-13-468599-1. [[CMU Library](https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019578256404436)] This book covers many aspects of program design, not only those specific to Java. We will assign multiple chapters.
@@ -500,7 +502,7 @@ The usual policies apply, especially the University Policy on Academic Integrity
 
 Any violation of this policy is cheating. We use automated systems to detect software plagiarism. These automated systems are highly effective and, so far, have detected software plagiarism almost every semester. The minimum penalty for cheating will be a zero grade for the whole assignment. Cheating incidents will also be reported through University channels, with possible additional disciplinary action (see the University Policy on Academic Integrity).
 
-For labs and homeworks you are allowed to use various tools and help available to professional programmers, such as online documentation, online tutorials and support forums like Stackoverflow, and AI assistants like Copilot and ChatGPT. You are allowed to post technical questions about aspects of the homework elsewhere, as long as you do not ask other humans to complete the work for you. Whenever you use external resources like this, you are still fully responsible for the correctness of your solution and complying with licenses. Note that content generation tools often create plausible-looking but incorrect answers, which will not receive credit. 
+For labs and homeworks you are allowed to use various tools and help available to professional programmers, such as online documentation, online tutorials and support forums like Stackoverflow, and AI assistants like Copilot and ChatGPT. You are allowed to post technical questions about aspects of the homework elsewhere, as long as you do not ask other humans to complete the work for you. Whenever you use external resources like this, you are still fully responsible for the correctness of your solution and complying with licenses. Note that content generation tools often create plausible-looking but incorrect answers, which will not receive credit.
 
 When you use AI assistants in homework, some assignments may require you to briefly describe their use and your experience with the homework submission.
 
