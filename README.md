@@ -29,10 +29,7 @@ Our TAs also provide an additional 15h of office hours each week; see details in
 The instructors have an open door policy: If the instructors' office doors are open and no-one else is meeting with us, we are happy to answer any course-related questions. Feel free to email us for appointments; we are also available over Zoom.
 
 ## Course Calendar
-
-<iframe src="https://calendar.google.com/calendar/embed?src=c_15a21c208fb8e55a84f33583f83e4aa5ec81f3e6dc11cf963c43f49bf4774aed%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-
+<iframe src="https://calendar.google.com/calendar/embed?src=c_81425b8a812ec3cfa08032ac52af2234d7a6a4f99f01ea991f1290c354fdf8ea%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Schedule
 
