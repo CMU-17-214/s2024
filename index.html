@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>17-214: Principles of Software System Construction</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script>
+    function toggle() { document.getElementById("navigation").classList.toggle("hidden"); document.getElementsByTagName("body")[0].classList.toggle("push"); }
+  </script>
+</head>
+<body>
+
+<nav id="navigation" class="hidden">
+  <div class="container">
+    <div class="course-semester">
+      <div class="course"><a href="index.html">17-214</a></div>
+      <div class="semester">Fall 2023</div>
+    </div>
+    <div id="hamburger" onclick="toggle()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul>
+      <li onclick="toggle()"><a href="index.html#course-calendar">Course calendar</a></li>
+      <li onclick="toggle()"><a href="index.html#schedule">Schedule</a></li>
+      <li onclick="toggle()"><a href="index.html#staff">Staff</a></li>
+      <li onclick="toggle()"><a href="index.html#course-syllabus-and-policies">Syllabus</a></li>
+      <li><a href="https://piazza.com/class/ll3rebcao3w646">Piazza</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="main" class="container">
+
+<h1 id="principles-of-software-construction-objects-design-and-concurrency">Principles of Software Construction <small>Objects, Design, and Concurrency</small></h1>
+<h2 id="overview">Overview</h2>
+<p>Software engineers today are less likely to design data structures and algorithms from scratch and more likely to build systems from library and framework components. In this course, students engage with concepts related to the construction of software systems at scale, building on their understanding of the basic building blocks of data structures, algorithms, program structures, and computer structures. The course covers technical topics in four areas: (1) concepts of design for complex systems, (2) object oriented programming, (3) static and dynamic analysis for programs, and (4) concurrent and distributed software. Student assignments involve engagement with complex software such as distributed massively multi-player game systems and frameworks for graphical user interaction.</p>
+<p>After completing this course, students will:</p>
+<ul>
+<li>Be comfortable with object-oriented concepts and with programming in the Java or JavaScript language</li>
+<li>Have experience designing medium-scale systems with patterns</li>
+<li>Have experience testing and analyzing your software</li>
+<li>Understand principles of concurrency and distributed systems</li>
+</ul>
+<p>See a more detailed list of <a href="https://cmu-17-214.github.io/s2024/learninggoals.html">learning goals</a> describing what we want students to know or be able to do by the end of the semester. We evaluate whether learning goals have been achieved through assignments and exams.</p>
+<h3 id="coordinates">Coordinates</h3>
+<p>Tu/Th 3:30 - 4:50 p.m. in WEH 7500</p>
+<p><strong><a href="https://www.cs.cmu.edu/~aldrich/">Jonathan Aldrich</a></strong>, <a href="https://www.covidcast.cmu.edu/visit/july-2021-campus-map">TCS</a> 422, office hours: see calendar</p>
+<p><strong><a href="https://www.cs.cmu.edu/~charlie/">Charlie Garrod</a></strong>, <a href="https://www.covidcast.cmu.edu/visit/july-2021-campus-map">TCS</a> 343, office hours: see calendar</p>
+<p><strong><a href="https://jeremylacomis.com/">Jeremy Lacomis</a></strong>, <a href="https://www.covidcast.cmu.edu/visit/july-2021-campus-map">TCS</a> 362, office hours: see calendar</p>
+<p>Our TAs also provide an additional 15h of office hours each week; see details in the calendar.</p>
+<p>The instructors have an open door policy: If the instructors&#39; office doors are open and no-one else is meeting with us, we are happy to answer any course-related questions. Feel free to email us for appointments; we are also available over Zoom.</p>
+<h2 id="course-calendar">Course Calendar</h2>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_15a21c208fb8e55a84f33583f83e4aa5ec81f3e6dc11cf963c43f49bf4774aed%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+
+<h2 id="schedule">Schedule</h2>
+<p>The schedule below reflects our current plans, but will be updated throughout the semester.</p>
+<div id="schedule">
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Topic</th>
+      <th style="width: 30%">Reading assignments*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="">
+      <td>Tue, Jan 16</td>
+      <td>Introduction</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Jan 17</td>
+      <td><span class="rec">Lab 1</span> Course Infrastructure Setup</a></td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Thu, Jan 18</td>
+      <td>OO basics, Dynamic dispatch, Encapsulation</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="">
+      <td>Tue, Jan 23</td>
+      <td>IDEs, Build system, Continuous Integration, Libraries</td>
+      <td>Required: <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019578256404436">Effective Java, Items 15 and 16</td>
+    </tr>
+    <tr>
+      <td>Wed, Jan 24</td>
+      <td><span class="rec">Lab 2</span> Encapsulation</td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Thu, Jan 25</td>
+      <td>Specifications and Unit Testing, Exceptions</td>
+      <td>Recommended: <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991000042699704436">Java Precisely</a> (Ch 3, 4, 9, 10, 11); <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576570404436">JavaScript: The Good Parts</a> (Ch. 3, 4, 9), <a href="https://www.typescriptlang.org/docs/handbook/intro.html">TypeScript Handbook</a> (Basics, Everyday Types, Object Types)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Jan 29</td>
+      <td><span class="assignment"><span class="hw">HW 1 due</span>Flash cards (Intro to OO and Libraries)</td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Tue, Jan 30</td>
+      <td>Test case design</td>
+      <td><a href="https://www.testim.io/blog/unit-testing-best-practices/">Unit Testing Best Practices</td>
+    </tr>
+    <tr>
+      <td>Wed, Jan 31</td>
+      <td><span class="rec">Lab 3</span> Unit testing</a></td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Thu, Feb 1</td>
+      <td>Object-oriented analysis and UML</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Feb 5</td>
+      <td><span class="assignment"><span class="hw">HW 2 due</span> Testing</td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Tue, Feb 6</td>
+      <td>Responsibility assignment</td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-16</td>
+    </tr>
+    <tr>
+      <td>Wed, Feb 7</td>
+      <td><span class="rec">Lab 4</span> Design and UML</td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Thu, Feb 8</td>
+      <td>Inheritance & Delegation</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Feb 13</td>
+      <td>Design Patterns</td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 17-18</td></td>
+    </tr>
+    <tr class="">
+      <td>Wed, Feb 14</td>
+      <td><span class="rec">Lab 5</span> Inheritance and Delegation</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Feb 15</td>
+      <td>Refactoring and Anti-patterns</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Feb 19</td>
+      <td><span class="assignment"><span class="hw">HW 3a due</span> Santorini: Intro to Design</td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Tue, Feb 20</td>
+      <td>Introduction to GUIs and Concurrency</td>
+      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
+    </tr>
+    <tr>
+      <td>Wed, Feb 21</td>
+      <td><span class="rec">Lab 6</span> Anti-patterns and Refactoring</td>
+      <td></td>
+    </tr>
+    <tr class="midterm">
+      <td>Thu, Feb 22</td>
+      <td class="midterm">Midterm 1</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Feb 26</td>
+      <td><span class="assignment"><span class="hw">HW 3b due</span> Santorini: Design feedback</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Feb 27</td>
+      <td>Asynchrony in JavaScript</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Feb 28</td>
+      <td><span class="rec">Lab 7</span> GUI intro</td>
+    </tr>
+    <tr>
+      <td>Thu, Feb 29</td>
+      <td>Concurrency and Hazards</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Concurrency model and the event loop</a> + <a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5">How JavaScript works</a></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Mar 5</td>
+      <td class="break">No class, Spring Break</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 6</td>
+      <td class="break">No lab, Spring Break</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Mar 7</td>
+      <td class="break">No class, Spring Break</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Mar 12</td>
+      <td><span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Mar 12</td>
+      <td>Concurrency: Reactive Programming</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 13</td>
+      <td><span class="rec">Lab 8</span> Concurrency & Promises</td>
+      <td></td>
+    </tr>
+    <td>Thu, Mar 14</td>
+      <td>Distributed Systems -- Events everywhere</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Mar 18</td>
+      <td><span class="assignment"><span class="hw">HW 3c due</span> Santorini: Final design</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Mar 19</td>
+      <td>Design for Robustness & Distributed Systems</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 20</td>
+      <td><span class="rec">Lab 9</span> ReactJS</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Mar 22</td>
+      <td>Libraries and Frameworks</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Mar 25</td>
+      <td><span class="assignment"><span class="hw">HW 5 due</span> Concurrency</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Mar 26</td>
+      <td><bf>Need Class Here</bf></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 27</td>
+      <td><span class="rec">Lab 10</span> Test Double (Fakes, Mocks & Stubs)</td>
+      <td></td>
+    </tr>
+    <tr class="midterm">
+      <td>Thu, Mar 28</td>
+      <td class="midterm">Midterm 2</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 2</td>
+      <td>API Design</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 3</td>
+      <td><span class="rec">Lab 11</span> Frameworks/Extensibility</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 4</td>
+      <td>Organizing Systems at Scale: Modules</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 9</td>
+      <td><span class="assignment"><span class="hw">HW 6a due</span> Santorini: User Interface</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Apr 9</td>
+      <td class="break">No class, Carnival</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 10</td>
+      <td class="break">No lab, Carnival</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 11</td>
+      <td class="break">No class, Carnival</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 16</td>
+      <td>Supply Chain Security and Sustainability</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 17</td>
+      <td><span class="rec">Lab 12</span> Cloud Deployment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 18</td>
+      <td>Static vs dynamic typing, static analysis</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 23</td>
+      <td>DevOps</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 24</td>
+      <td><span class="rec">Lab 13</span> Design Pattern Review</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 25</td>
+      <td><span class="assignment"><span class="hw">HW 6b due</span> Santorini: God Cards</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 25</td>
+      <td>Finale: Toward SE, Teams, Process</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="midterm">
+      <td>TBD</td>
+      <td>Final exam</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<h2 id="course-staff">Course Staff</h2>
+<p>Instructors: <a href="https://www.cs.cmu.edu/~aldrich/">Jonathan Aldrich</a> [aldrich], <a href="https://www.cs.cmu.edu/~charlie/">Charlie Garrod</a> [cgarrod], and <a href="https://jeremylacomis.com/">Jeremy Lacomis</a> [jlacomis]</p>
+<p>TAs: Aditya Kumar Mittal [akmittal],
+Eileen Weizhen Xiao [ewxiao],
+Jeffrey Hanyun Li [jhl4],
+Jiaye Liu [jiayeliu],
+Terry (Jielin) Li [jielinl],
+Rajath Mahendrappa Kotyal [rajathm],
+Sitong Shang [sitongs],
+Wenjun Zhou [wejunz2],
+Yikang Cheng [yikangc],
+Zhiwei Tong [zhiweit]</p>
+<h2 id="course-syllabus-and-policies"><strong>Course Syllabus and Policies</strong></h2>
+<h3 id="prerequisites"><strong>Prerequisites</strong></h3>
+<ul>
+<li><p>15-122 or 15-211, or equivalent with instructor&#39;s permission</p>
+</li>
+<li><p>The equivalent of 2 semester-long programming classes</p>
+<ul>
+<li>Ability to write small programs in C (or Java, C#, or other imperative languages with pointers or references)</li>
+<li>Ability to reason about programs using preconditions, postconditions, and invariants</li>
+<li>Familiarity with a basic set of algorithms and data structures (linked lists, simple graph and sorting algorithms)</li>
+</ul>
+</li>
+<li><p>15-151 or 21-127, or equivalent with instructor&#39;s permission</p>
+<ul>
+<li>Sound foundation of mathematical concepts; ability to reason formally</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="grading-and-deadlines"><strong>Grading</strong> <strong>and Deadlines</strong></h3>
+<p>Evaluation will be based on the following approximate percentages:</p>
+<ul>
+<li>50% assignments</li>
+<li>30% midterm exams and final exam</li>
+<li>10% labs</li>
+<li>10% participation and quizzes</li>
+</ul>
+<p>This course does not have a fixed letter grade policy; i.e., the final letter grades will <strong>not</strong> be A=90-100%, B=80-90%, etc.</p>
+<p><strong>Homework grading and regrading.</strong> We try to be transparent in our rubrics in our assignments. Feel free to ask instructors or TAs clarification questions about the rubrics before the assignment is due. If you disagree with a grade, please submit a regrade request within 7 days on Gradescope. Regrade requests need a justification, explaining why our assessment is inconsistent with the rubric. Regrade requests without such justification will be closed.</p>
+<p>Each student can <em>resubmit</em> any <em>one</em> assignment milestone and it will be regraded as if it was the first submission (see below).</p>
+<p><strong>Participation and quizzes.</strong> You should expect a quiz at the start of nearly every lecture and often additional in-class activities within the lecture. When a reading assignment is given, the quiz will typically touch on the content from the reading material. Otherwise (and sometimes in addition), the quiz centers around the content from the most recent lecture or two. A quiz will typically have 1-2 questions and is graded pass/fail.</p>
+<p><strong>Labs.</strong> Labs will be graded on a pass/fail basis during recitations. You will have a chance during recitation to improve your solution. See a description <a href="https://github.com/CMU-17-214/s2024/blob/main/labs.md">here</a>.</p>
+<p><strong>Late work.</strong> We understand that normal life events, including projects and exams in other courses and technical difficulties out of your control, can interfere with your ability to complete your work on time or attend lectures and recitations. Our philosophy is that our late work policy includes built-in flexibility but that the policy will be uniformly applied to all students in all circumstances. Exceptions to this policy will be made only with explicit accommodations, almost always involving a family or medical emergency with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf.</p>
+<p>We provide the following flexibility, no questions asked, no justification needed:</p>
+<ul>
+<li>For midterms and finals, we drop the worst of the three grades.</li>
+<li>For quizzes, we will drop up to four missed/failed solutions during the semester.</li>
+<li>For labs, we will drop up to four missed/failed solutions during the semester.</li>
+<li>For homework deadlines you have 5 free late days for the semester. You can exceed each deadline by up to three days (unless explicitly specified otherwise in the assignment, check carefully), for a penalty of 10% per day once you run out of free late days. Note that some homework assignments have multiple milestones with separate deadlines; there are typically around 9 homework deadlines in a semester – late days are assessed for each deadline independently.</li>
+<li>For a single homework deadline during the semester, you can redo and resubmit your work after it was graded. It will be regraded as if it was the first submission and you can regain all lost points. Each student can only do this once. We accept resubmissions until the Dec 16, 11:59pm. (While we do not recommend it, you can use this as arbitrary late days for a single deadline, receiving 0 points for missing the initial deadline and then resubmitting later).</li>
+</ul>
+<p>Any work submitted beyond the flexibility provided by these mechanisms will receive feedback but no credit unless explicit accommodations were provided.</p>
+<hr>
+<h3 id="attendance-and-remote-participation"><strong>Attendance and remote participation</strong></h3>
+<p>This course, including recitations, is marked by the registrar as IPE (&quot;delivered in-person, students are expected to be in the classroom during the course&#39;s scheduled meeting time&quot;). We do not plan to make accommodations for remote attendance.</p>
+<p>We strongly recommend attending lectures. We have regular in-class activities and quizzes that we expect you to complete in class. Attending recitations is required for grading labs.</p>
+<p>In case of illness, quarantine, or other exceptional circumstances, we may be able to share recordings of lectures upon request on a case by case basis. Recordings may not be shared to protect the FERPA rights of all students in the classroom.</p>
+<hr>
+<h3 id="textbooks"><strong>Textbooks</strong></h3>
+<p>This course will occasionally assign <strong>mandatory readings</strong>, from the two text books below. The CMU library has both physical and electronic copies of these books. You can access <em>all</em> of these books for free electronically through the CMU library.</p>
+<ul>
+<li>Larman, Craig. <a href="https://bookshop.org/books/applying-uml-and-patterns-an-introduction-to-object-oriented-analysis-and-design-and-iterative-development/9780131489066"><em>Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development</em></a>, 3rd Edition. Prentice Hall. ISBN 0-13-148906-2. [<a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576227704436">CMU Library</a>] This book describes basics of object-oriented design, responsibility assignment, and some design patterns used in the course. We will use the third edition, which covers the course&#39;s topics in more details than earlier editions. We will assign select chapters.</li>
+<li>Bloch, Joshua. <a href="https://bookshop.org/books/effective-java-9780134685991/9780134685991"><em>Effective Java</em></a>, Third Edition. Addison-Wesley, ISBN 978-0-13-468599-1. [<a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019578256404436">CMU Library</a>] This book covers many aspects of program design, not only those specific to Java. We will assign multiple chapters.</li>
+</ul>
+<p>In addition, we list <strong>several optional readings</strong> that may be helpful with specific topics in the course. Especially if Java/Javascript is new to you, you might want to consider exploring additional books.</p>
+<ul>
+<li><p>Object-Oriented Design and Design Patterns</p>
+<ul>
+<li>Alan Shalloway and James Trott. <a href="https://bookshop.org/books/design-patterns-explained-a-new-perspective-on-object-oriented-design/9780321247148"><em>Design Patterns Explained: A New Perspective on Object-Oriented Design (2nd Ed.)</em></a> [<a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">CMU Library</a>]</li>
+<li>Gamma et al. <a href="https://bookshop.org/books/design-patterns-elements-of-reusable-object-oriented-software/9780201633610"><em>Design Patterns: Elements of Reusable Object-Oriented Software</em></a>. Addison Wesley. ISBN 0-201-63361-2 [<a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576613104436">CMU Library</a>] (this is an excellent book, but more of a reference text than the <em>Design Patterns Explained</em> book. In addition, because it was the original patterns book, the examples are in C++ and Smalltalk, not Java)</li>
+</ul>
+</li>
+<li><p>Java</p>
+<ul>
+<li><em>Note: Here are some popular textbook and online resources for learning Java.</em></li>
+<li>Sestoft. <a href="https://bookshop.org/books/java-precisely-third-edition/9780262529075"><em>Java Precisely</em></a>. MIT Press, 2016. [<a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991016506989704436">2nd edition in the CMU library</a>] (this is a very concise reference with many good examples; it assumes that you already know other programming languages)</li>
+<li><a href="http://math.hws.edu/javanotes/">Introduction to Programming Using Java</a> (free online textbook)</li>
+<li><a href="http://www.bluepelicanjava.com/">Blue Pelican Java</a> (free online textbook)</li>
+</ul>
+</li>
+<li><p>Javascript/Typescript</p>
+<ul>
+<li>Douglas Crockford. <a href="https://bookshop.org/books/javascript-the-good-parts-the-good-parts/9780596517748">JavaScript: The good parts</a>. O&#39;Reilly, 2008. [<a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576570404436">CMU library</a>]</li>
+<li>Boris Cherny. <a href="https://bookshop.org/books/programming-typescript-making-your-javascript-applications-scale/9781492037651">Programming Typescript: Making Your JavaScript Applications Scale</a>. O&#39;Reilly, 2019. [<a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019642791104436">CMU library</a>]</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="time-management"><strong>Time management</strong></h3>
+<p>This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class, 1 hour on labs, and 7 hours on assignments. Please feel free to give the course staff feedback on how much time the course is taking for you.</p>
+<hr>
+<h3 id="research-to-improve-the-course"><strong>Research to Improve the Course:</strong></h3>
+<p>For this class, we are conducting research on teaching and learning. This research will involve some student work. You will not be asked to do anything above and beyond the normal learning activities and assignments that are part of this course. You are free not to participate in this research, and your participation will have no influence on your grade for this course or your academic career at CMU. If you do not wish to participate, please send an email to Chad Hershock (<a href="mailto:&#104;&#101;&#x72;&#115;&#x68;&#111;&#99;&#x6b;&#x40;&#x61;&#x6e;&#x64;&#x72;&#101;&#119;&#46;&#99;&#109;&#117;&#x2e;&#101;&#x64;&#117;">&#104;&#101;&#x72;&#115;&#x68;&#111;&#99;&#x6b;&#x40;&#x61;&#x6e;&#x64;&#x72;&#101;&#119;&#46;&#99;&#109;&#117;&#x2e;&#101;&#x64;&#117;</a>). Participants will not receive any compensation. The data collected as part of this research will include student grades. All analyses of data from participants’ coursework will be conducted after the course is over and final grades are submitted. The Eberly Center may provide support on this research project regarding data analysis and interpretation. The Eberly Center for Teaching Excellence &amp; Educational Innovation is located on the CMU-Pittsburgh Campus and its mission is to support the professional development of all CMU instructors regarding teaching and learning. To minimize the risk of breach of confidentiality, the Eberly Center will never have access to data from this course containing your personal identifiers. All data will be analyzed in de-identified form and presented in the aggregate, without any personal identifiers. If you have questions pertaining to your rights as a research participant, or to report concerns to this study, please contact Chad Hershock (<a href="mailto:&#x68;&#x65;&#x72;&#x73;&#x68;&#x6f;&#x63;&#107;&#64;&#x61;&#110;&#x64;&#x72;&#101;&#119;&#46;&#x63;&#x6d;&#x75;&#46;&#101;&#x64;&#x75;">&#x68;&#x65;&#x72;&#x73;&#x68;&#x6f;&#x63;&#107;&#64;&#x61;&#110;&#x64;&#x72;&#101;&#119;&#46;&#x63;&#x6d;&#x75;&#46;&#101;&#x64;&#x75;</a>).</p>
+<hr>
+<h3 id="collaboration-policy-and-academic-integrity"><strong>Collaboration policy and academic integrity</strong></h3>
+<p>The usual policies apply, especially the University Policy on Academic Integrity. We expect that your work on assignments, projects, and exams will be your own work. The key guiding principle of academic honesty in this course is: <em>&quot;You may not copy any part of a solution to a problem that was written by another student (in this or prior iterations of the class), or was developed together with another student, or was delegated to another person. You may not look at another student&#39;s solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.&quot;</em> Note that this implies that you cannot publicly post your solutions on GitHub (e.g., as part of a portfolio during job applications). We also expect and respect honesty when communicating with the course staff.</p>
+<p>Any violation of this policy is cheating. We use automated systems to detect software plagiarism. These automated systems are highly effective and, so far, have detected software plagiarism almost every semester. The minimum penalty for cheating will be a zero grade for the whole assignment. Cheating incidents will also be reported through University channels, with possible additional disciplinary action (see the University Policy on Academic Integrity).</p>
+<p>For labs and homeworks you are allowed to use various tools and help available to professional programmers, such as online documentation, online tutorials and support forums like Stackoverflow, and AI assistants like Copilot and ChatGPT. You are allowed to post technical questions about aspects of the homework elsewhere, as long as you do not ask other humans to complete the work for you. Whenever you use external resources like this, you are still fully responsible for the correctness of your solution and complying with licenses. Note that content generation tools often create plausible-looking but incorrect answers, which will not receive credit.</p>
+<p>When you use AI assistants in homework, some assignments may require you to briefly describe their use and your experience with the homework submission.</p>
+<p>Here are some examples of behavior that are inappropriate:</p>
+<ul>
+<li>Copying (or retyping) files, parts of files (such as source code, written text, or unit tests), quiz solutions, or exam solutions from another person or source, either in draft or final form, even if the file permissions are incorrectly set to allow it. This behavior is still clearly inappropriate even if you make modifications (such as style changes or minor logic modifications) from the original source.</li>
+<li>Searching for or viewing a current or past student&#39;s homework solution.</li>
+<li>Allowing someone else to view or copy your code, written assignment, quiz, or exam, either in draft or final form.</li>
+<li>Writing, using, or submitting a program that attempts to alter or erase grading information or otherwise compromise security of course resources.</li>
+<li>Lying to course staff.</li>
+<li>Making your work publicly available in a way that other students (current or future) can access your solutions, even if others’ access is accidental or incidental to your goals.</li>
+</ul>
+<p>Here are some examples of acceptable behaviors:</p>
+<ul>
+<li>Solve technical problems by searching for the error message with Google or on StackOverflow.</li>
+<li>Copying code snippets from tutorials or StackOverflow into your own code.</li>
+<li>Importing libraries as part of your implementation. Reading documentation and examples of libraries. Copying libraries or utility files into your repository (bad practice to avoid, but not consider cheating).</li>
+<li>Copying code from labs or reference solutions provided in recitations.</li>
+<li>Using GitHub Copilot while writing your solution.</li>
+<li>Using ChatGPT to write or help write justifications in homework assignments, while checking the correctness of the answer.</li>
+<li>Looking at other students&#39; solutions when explicitly instructed by the course staff, for example, as part of peer grading for labs, quizzes, or homework.</li>
+</ul>
+<p>There is no statute of limitations for violations of the collaboration policy; penalties may be assessed (and referred to the university disciplinary board) after you have completed the course, and some requirements of the collaboration policy (such as restrictions on you posting your solutions) extend beyond your completion of the course.</p>
+<p>If you have any question about how this policy applies in a particular situation, ask the instructors or TAs for clarification.</p>
+<hr>
+<h3 id="audit-policy"><strong>Audit Policy</strong></h3>
+<p>If you desire to audit the course, our general requirement is that you complete homeworks to achieve at least 50% of the total homework grade. Solutions do not need to be fully complete, but we encourage you to attempt to do so. We additionally encourage you to attend lectures and complete labs, but you are not required to do so. You should not attend our midterm exams or final exam.</p>
+<hr>
+<h3 id="your-health-matters"><strong>Your health matters</strong></h3>
+<p>When we say &quot;your health matters&quot; we mean exactly that: Your health matters. We don&#39;t intend to imply that other peoples&#39; health does not matter, or that your health matters more or less than theirs. We know that CMU can be a stressful, risky environment, and <em>your</em> health is the health that is relevant in this conversation. Worries about Covid-19 and possible remote classes do not help.</p>
+<p><strong>Please take care of yourself</strong>. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.</p>
+<p>All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.</p>
+<p>If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at <a href="http://www.cmu.edu/counseling/">http://www.cmu.edu/counseling/</a>. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.</p>
+<p>If you are worried about affording food or feeling insecure about food, there are resources on campus who can help. Email the CMU Food Pantry Coordinator to schedule an appointment: <a href="mailto:&#99;&#x6d;&#x75;&#x2d;&#x70;&#97;&#x6e;&#116;&#114;&#121;&#x40;&#x61;&#110;&#x64;&#114;&#x65;&#x77;&#46;&#99;&#109;&#x75;&#x2e;&#x65;&#100;&#117;">&#99;&#x6d;&#x75;&#x2d;&#x70;&#97;&#x6e;&#116;&#114;&#121;&#x40;&#x61;&#110;&#x64;&#114;&#x65;&#x77;&#46;&#99;&#109;&#x75;&#x2e;&#x65;&#100;&#117;</a></p>
+<p><strong>Respect for diversity.</strong> It is our intent that students from all diverse backgrounds and perspectives be well served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is my intent to present materials and activities that are respectful of diversity: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Your suggestions are encouraged and appreciated. Please let us know ways to improve the effectiveness of the course for you personally or for other students or student groups.</p>
+<p><strong>Accommodations for students with disabilities.</strong> If you have a disability and have an accommodations letter from the Disability Resources office, we encourage you to discuss your accommodations and needs with us as early in the semester as possible. We will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, we encourage you to contact them at <a href="mailto:&#97;&#x63;&#99;&#x65;&#x73;&#x73;&#64;&#x61;&#110;&#100;&#114;&#x65;&#x77;&#x2e;&#x63;&#109;&#117;&#46;&#101;&#x64;&#x75;">&#97;&#x63;&#99;&#x65;&#x73;&#x73;&#64;&#x61;&#110;&#100;&#114;&#x65;&#x77;&#x2e;&#x63;&#109;&#117;&#46;&#101;&#x64;&#x75;</a>.</p>
+<hr>
+<h3 id="informal-feedback-on-this-course"><strong>Informal feedback on this course</strong></h3>
+<p>We are planning many changes to this course in this semester and not everything will work out smoothly the first time. We’d like you to provide ongoing feedback on your experience in the course, so that we can take into account your experience and adapt our practices to make the course work for you.</p>
+<p>Outside of the regular course meetings and Piazza, you can submit feedback about anything in the course per email to the instructors or ask TAs to forward them anonymously. We will read every message submitted and use your feedback to try to improve the way we are teaching.</p>
+
+
+</div> 
+  </body>
+</html>
