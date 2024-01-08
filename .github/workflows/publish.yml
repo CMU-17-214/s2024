@@ -1,16 +1,16 @@
 name: publish-gh-pages
 
 on:
-  push: 
+  push:
     branch: main
 
 jobs:
   gh-pages:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v2
-      
+
     - name: Prepare _site
       run: |
         echo generate main html page in _site/
@@ -43,7 +43,7 @@ jobs:
         git add .
         touch .nojekyll
         git add .nojekyll
-        git config --local user.email "ckaestne@nomail.cs.cmu.edu"
+        git config --local user.email "jlacomis@nomail.cs.cmu.edu"
         git config --local user.name "GitHub Action"
         git commit --allow-empty -m "Update gh-pages for ${{ github.sha }}"
         git push https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:gh-pages --force --follow-tags -v
