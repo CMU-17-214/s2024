@@ -255,7 +255,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Mar 26</td>
-      <td><bf>Need Class Here</bf></td>
+      <td><bf>TBD</bf></td>
       <td></td>
     </tr>
     <tr>
@@ -294,7 +294,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Apr 9</td>
-      <td class="break">No class, Carnival</td>
+      <td>TBD</td>
       <td></td>
     </tr>
     <tr>
