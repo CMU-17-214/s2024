@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>17-214: Principles of Software System Construction</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script>
+    function toggle() { document.getElementById("navigation").classList.toggle("hidden"); document.getElementsByTagName("body")[0].classList.toggle("push"); }
+  </script>
+</head>
+<body>
+
+<nav id="navigation" class="hidden">
+  <div class="container">
+    <div class="course-semester">
+      <div class="course"><a href="index.html">17-214</a></div>
+      <div class="semester">Fall 2023</div>
+    </div>
+    <div id="hamburger" onclick="toggle()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul>
+      <li onclick="toggle()"><a href="index.html#course-calendar">Course calendar</a></li>
+      <li onclick="toggle()"><a href="index.html#schedule">Schedule</a></li>
+      <li onclick="toggle()"><a href="index.html#staff">Staff</a></li>
+      <li onclick="toggle()"><a href="index.html#course-syllabus-and-policies">Syllabus</a></li>
+      <li><a href="https://piazza.com/class/ll3rebcao3w646">Piazza</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header id="top" class="container">
+  <h1>Principles of Software Construction <small>Objects, Design, and Concurrency</small></h1>
+</header>
+
+<div id="main" class="container">
+  <h2>Learning Goals</h2><p><strong>After taking this course you should be able to...</strong></p>
+<ul>
+<li><strong>Understand key concepts of object oriented programming</strong> (object identity, dynamic dispatch/polymorphism)</li>
+<li><strong>Use modern development tools to design and implement nontrivial programs</strong>
+<ul>
+<li>Write programs of medium complexity</li>
+<li>Use standard tools expected of professional developers: IDEs, refactoring, debugging, version control, static analysis, code review</li>
+<li>Write simple user interfaces using command line or visual frontends</li>
+</ul>
+</li>
+<li><strong>Design code that is easy to understand, maintain, and reuse</strong>
+<ul>
+<li>Domain modeling, responsibility assignment</li>
+<li>Taming complexity: Patterns, types, abstraction, and reducing coupling</li>
+<li>Design for change: Information hiding, contracts, subtype polymorphism</li>
+<li>Design for reuse: Small scale: Delegation, inheritance, parametric polymorphism (generics)
+Immutable data structures</li>
+<li>Structuring systems at different scale: methods, classes, modules, subsystems (microservices)</li>
+<li><strong>Understand and apply common design patterns</strong> (technically belongs to the previous point)
+<ul>
+<li>Understand the idea behind design patterns</li>
+<li>Evaluate when to use design patterns and apply them to solve common design problems</li>
+<li>Understand common anti-patterns</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Use and design libraries, frameworks, and APIs</strong> (design for reuse at scale)</li>
+<li><strong>Program confidently with concurrency</strong>
+<ul>
+<li>Challenges and modern solutions and patterns</li>
+<li>Basic understanding of distributed systems and RPC, client server, microservice</li>
+</ul>
+</li>
+<li><strong>Assess functional correctness with unit tests</strong>
+<ul>
+<li>Competency in writing unit tests and integration tests</li>
+<li>Create tests using a dedicated testing strategy (boundary condition, coverage, …)</li>
+<li>Design software to be testable, good test suite design</li>
+<li>Build and test automation, CI, test coverage</li>
+<li>Testing robustness, integration testing</li>
+<li>Ideas in unit testing: TDD, BDD, …</li>
+<li>Understand the tradeoffs between formal verification and testing (and type checking and static analysis)</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+
+</body>
+</html>

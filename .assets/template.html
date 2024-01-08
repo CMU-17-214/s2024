@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>17-214: Principles of Software System Construction</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script>
+    function toggle() { document.getElementById("navigation").classList.toggle("hidden"); document.getElementsByTagName("body")[0].classList.toggle("push"); }
+  </script>
+</head>
+<body>
+
+<nav id="navigation" class="hidden">
+  <div class="container">
+    <div class="course-semester">
+      <div class="course"><a href="index.html">17-214</a></div>
+      <div class="semester">Fall 2023</div>
+    </div>
+    <div id="hamburger" onclick="toggle()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul>
+      <li onclick="toggle()"><a href="index.html#course-calendar">Course calendar</a></li>
+      <li onclick="toggle()"><a href="index.html#schedule">Schedule</a></li>
+      <li onclick="toggle()"><a href="index.html#staff">Staff</a></li>
+      <li onclick="toggle()"><a href="index.html#course-syllabus-and-policies">Syllabus</a></li>
+      <li><a href="https://piazza.com/class/ll3rebcao3w646">Piazza</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="main" class="container">
+
