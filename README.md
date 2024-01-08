@@ -359,21 +359,18 @@ The schedule below reflects our current plans, but will be updated throughout th
 
 ## Course Staff
 
-Instructors: [Christian Kaestner](https://www.cs.cmu.edu/~ckaestne/) [ckaestne], and [Jeremy Lacomis](https://jeremylacomis.com/) [jlacomis]
+Instructors: [Jonathan Aldrich](https://www.cs.cmu.edu/~aldrich/) [aldrich], [Charlie Garrod](https://www.cs.cmu.edu/~charlie/) [cgarrod], and [Jeremy Lacomis](https://jeremylacomis.com/) [jlacomis]
 
-
-TAs: Duan Liang [duanlian],
+TAs: Aditya Kumar Mittal [akmittal],
 Eileen Weizhen Xiao [ewxiao],
-Haoqin Yang [haoqiny],
+Jeffrey Hanyun Li [jhl4],
+Jiaye Liu [jiayeliu],
 Terry (Jielin) Li [jielinl],
-Lara Marinov [lmarinov],
+Rajath Mahendrappa Kotyal [rajathm],
 Sitong Shang [sitongs],
-Tianyi Peng [tianyip],
-Connie (Wenjun) Zhou [wenjunz2],
-Kaylee (Yushin) Park [yushinp],
-Zixuan Zheng [zzheng3]
-
-
+Wenjun Zhou [wejunz2],
+Yikang Cheng [yikangc],
+Zhiwei Tong [zhiweit]
 
 ## **Course Syllabus and Policies**
 
@@ -412,7 +409,7 @@ Each student can *resubmit* any *one* assignment milestone and it will be regrad
 
 **Participation and quizzes.** You should expect a quiz at the start of nearly every lecture and often additional in-class activities within the lecture. When a reading assignment is given, the quiz will typically touch on the content from the reading material. Otherwise (and sometimes in addition), the quiz centers around the content from the most recent lecture or two. A quiz will typically have 1-2 questions and is graded pass/fail.
 
-**Labs.** Labs will be graded on a pass/fail basis during recitations. You will have a chance during recitation to improve your solution. See a description [here](https://github.com/CMU-17-214/f2024/blob/main/labs.md).
+**Labs.** Labs will be graded on a pass/fail basis during recitations. You will have a chance during recitation to improve your solution. See a description [here](https://github.com/CMU-17-214/s2024/blob/main/labs.md).
 
 **Late work.** We understand that normal life events, including projects and exams in other courses and technical difficulties out of your control, can interfere with your ability to complete your work on time or attend lectures and recitations. Our philosophy is that our late work policy includes built-in flexibility but that the policy will be uniformly applied to all students in all circumstances. Exceptions to this policy will be made only with explicit accommodations, almost always involving a family or medical emergency with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf.
 
