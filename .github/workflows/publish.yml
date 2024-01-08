@@ -34,7 +34,7 @@ jobs:
         git add .
         touch .nojekyll
         git add .nojekyll
-        git config --local user.email "jlacomis@nomail.cs.cmu.edu"
+        git config --local user.email "jlacomis@cmu.edu"
         git config --local user.name "GitHub Action"
         git commit --allow-empty -m "Update gh-pages for ${{ github.sha }}"
         git push https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:gh-pages --force --follow-tags -v
