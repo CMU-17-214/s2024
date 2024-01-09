@@ -7,7 +7,7 @@ During this course, you will become familiar with several popular and industry-r
 ## Deliverables
 
 - [ ] Locally clone your Homework 1 Git repository, fix a typo in the `README.md` file ("assigment" -> "assignment") and commit and push the change.
-- [ ] Install Java 17, Maven, and an IDE of your choice. Run `java --version` to verify it is version 17.
+- [ ] Install Java 21, Maven, and an IDE of your choice. Run `java --version` to verify it is version 21.
 - [ ] Show that you can compile and run the Java starter code of homework 1 on your machine.
 
 
@@ -39,23 +39,23 @@ This will download the entire repository to your computer. If you are prompted t
 
 ### Installing Java 
 
-Download and install Java 17. The language used in this class is Java 17. Several vendors provide implementations of Java 17, if in doubt choose the open-source OpenJDK 17. 
+Download and install Java 21. The language used in this class is Java 21. Several vendors provide implementations of Java 21, if in doubt choose the open-source OpenJDK 21. 
 
 Installing the right version of Java can sometimes be a bit tricky. If you already use a package manager for your platform (homebrew, apt, snap, scoop, etc) installing Java with that tool is probably the easiest. Below are detailed instructions, but feel free to skim/skip.
 
 *Note for Windows users:* We recommend installing [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux) and using it for all your development environments installations and future assignments when following this guide. 
 
-**Installing Java using homebrew on MacOS.** Run `brew install openjdk@17` and run the command from the output to create a symbolic link. See [these instructions](https://medium.com/@manvendrapsingh/installing-many-jdk-versions-on-macos-dfc177bc8c2b) for a detailed reference.
+**Installing Java using homebrew on MacOS.** Run `brew install openjdk@21` and run the command from the output to create a symbolic link. See [these instructions](https://medium.com/@manvendrapsingh/installing-many-jdk-versions-on-macos-dfc177bc8c2b) for a detailed reference.
 
 **Manual installation and other operating systems.** 
 
-- MacOS. Download the MacOS tar.gz archive from the [OpenJDK website](https://jdk.java.net/archive/). Untar the archive (double click), and move the contained directory (named something like jdk-17.0.2.jdk) to the /Library/Java/JavaVirtualMachines/ directory
+- MacOS. Download the MacOS tar.gz archive from the [OpenJDK website](https://jdk.java.net/archive/). Untar the archive (double click), and move the contained directory (named something like jdk-21.0.1.jdk) to the /Library/Java/JavaVirtualMachines/ directory
 - Linux. If possible, please really use the package manager of your distribution. It will be much easier. 
-- Windows. To install OpenJDK, download the Windows zip file from the [OpenJDK website](https://jdk.java.net/java-se-ri/17), and follow the instructions at [this StackOverflow post ](https://stackoverflow.com/questions/52511778/how-to-install-openjdk-11-on-windows/52531093#52531093)to correctly set Windows environment variables. Alternatively, if you wish to just use an install wizard, [download and install the Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html).
+- Windows. To install OpenJDK, download the Windows zip file from the [OpenJDK website](https://jdk.java.net/java-se-ri/21), and follow the instructions at [this StackOverflow post ](https://stackoverflow.com/questions/52511778/how-to-install-openjdk-11-on-windows/52531093#52531093)to correctly set Windows environment variables. Alternatively, if you wish to just use an install wizard, [download and install the Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java21).
 
-**Managing multiple Java installations.** If you already have existing different versions of Java installed and want to keep them, you can use [jEnv](http://jenv.be) to help manage your installations. As another option, you can set the JAVA_HOME environment variable in your ~/.zshrc or ~/.bash_profile or Windows configuration to point to Java 17 folder (e.g., `export JAVA_HOME=$(/usr/libexec/java_home -v17)`; if you choose this approach, you’ll need to modify the number that comes after -v if you ever want to switch your Java version). If you’re interested in switching between Java versions (not needed in this course), see [here](https://medium.com/@manvendrapsingh/installing-many-jdk-versions-on-macos-dfc177bc8c2b) under the section “Switching JDKs” for instructions on how to do so. 
+**Managing multiple Java installations.** If you already have existing different versions of Java installed and want to keep them, you can use [jEnv](http://jenv.be) to help manage your installations. As another option, you can set the JAVA_HOME environment variable in your ~/.zshrc or ~/.bash_profile or Windows configuration to point to Java 21 folder (e.g., `export JAVA_HOME=$(/usr/libexec/java_home -v21)`; if you choose this approach, you’ll need to modify the number that comes after -v if you ever want to switch your Java version). If you’re interested in switching between Java versions (not needed in this course), see [here](https://medium.com/@manvendrapsingh/installing-many-jdk-versions-on-macos-dfc177bc8c2b) under the section “Switching JDKs” for instructions on how to do so. 
 
-*Checkpoint:* Confirm your Java installation by inspecting the output of the command `java -version` and `javac -version`. You should see something similar to: *openjdk version "17.0.2" 2022-01-18.* The major version should be 17, any vendor and patch version is okay. 
+*Checkpoint:* Confirm your Java installation by inspecting the output of the command `java -version` and `javac -version`. You should see something similar to: *openjdk version "21.0.1" 2023-10-17.* The major version should be 21, any vendor and patch version is okay. 
 
 ### Installing Maven
 
@@ -77,7 +77,7 @@ Install VSCode following [instructions](https://code.visualstudio.com/) on its h
 
 **Navigate to the sidebar and look for the extensions symbol (5th from the top) and search for “Extension Pack for Java” and install it locally**. This extension includes linting, test running and debugging, support for Maven (the build automation tool we use for Java projects in this class), and a few other helpful extensions. 
 
-You need to have Java 17 installed for this project. Do not downgrade your Java version if you are asked to, this will break your project. 
+You need to have Java 21 installed for this project. Do not downgrade your Java version if you are asked to, this will break your project. 
 
 *Checkpoint:* You can explore the source files in the IDE.
 
