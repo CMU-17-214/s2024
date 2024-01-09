@@ -6,9 +6,7 @@ In this assignment, you will complete a simple [flashcard](https://en.wikipedia.
 
 Like often common in software engineering practice, you won't start entirely from scratch but start with an existing implementation. Fortunately, it's even somewhat documented and clean, so you should be able to figure out what's happening by reading documentation and code. You may change existing code if you like. 
 
-With the GitHub classroom link on Canvas create a Git repository with the provided starter code. The repository has one directory for Java and one directory for TypeScript. You will complete the tasks for this homework once **in each language**. Each directory has its own README with language specific information. Note that the Java implementation has a folder named achievement that implements an achievement system for the flashcard learning system. This folder only becomes relevant in Homework 2 which builds on this assignment. You will not need to make any changes to it in this homework. 
-
-You should use an IDE to load and edit the projects. We recommend [VSCode](https://code.visualstudio.com/) for both Java and TypeScript development to reduce the tedium of switching between two IDEs, but you are welcome to use [IntelliJ](https://www.jetbrains.com/idea/) or other IDEs if you prefer (note you can get free access to Enterprise IntelliJ via an Education discount, which will give you access to TypeScript support).
+With the GitHub classroom link on Canvas create a Git repository with the provided starter code. You should use an IDE to load and edit the projects. We recommend (and will only provide support for) [VSCode](https://code.visualstudio.com/) for both Java and TypeScript development to reduce the tedium of switching between two IDEs, but you are welcome to use [IntelliJ](https://www.jetbrains.com/idea/) or other IDEs if you prefer (note you can get free access to Enterprise IntelliJ via an Education discount, which will give you access to TypeScript support).
 
 ## Tasks
 
@@ -16,7 +14,7 @@ You should use an IDE to load and edit the projects. We recommend [VSCode](https
 
 Starting points: try to dissect the specification into its main components.  What should the behavior be under "typical" inputs (e.g., one card with a recent failure, one without; cards with several successes and failures), and what scenarios does it outline as exceptions? Do avoid implementing anything extra that is not part of the specification. 
 
-We recommend to name your new sorter `RecentMistakesFirstSorter` in Java and `newRecentMistakesFirstSorter` in TypeScript. Your sorter should implement the *CardOrganizer* interface.
+We recommend to name your new sorter `RecentMistakesFirstSorter`. Your sorter should implement the *CardOrganizer* interface.
 
 Note that only a relatively small amount of code is necessary to implement this new class, regardless of language. Only minimal changes will be required outside of your new class, in particular to test the new sorter by using it in place of the sorter the code starts with (`CardShuffler`/`newCardShuffler`). 
 
@@ -49,19 +47,19 @@ If the program is called with the `--help` option, it should display a message s
 
 Any combination of the options should be able to be applied at the same time; however, passing the `--help` flag with any other options should just display the help message and exit. Again, the library you use may provide you with a way to implement this functionality.
 
-**All** of these options can be configured using the existing codebase, meaning you **do not need** to add any new functionality to the program. Rather, the only changes you need to make are to the program's dependencies and to its entry point, so that it functions as a command-line interface described above. All of your code for this task will therefore most likely be within `index.ts` and `Main.java`. 
+**All** of these options can be configured using the existing codebase, meaning you **do not need** to add any new functionality to the program. Rather, the only changes you need to make are to the program's dependencies and to its entry point, so that it functions as a command-line interface described above. All of your code for this task will therefore most likely be within `Main.java`. 
 
-You are free to use any open source library on *Maven Central* or *npm* for this project. There are many many choices with different levels of quality and documentation (e.g., [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/), [jopt](https://github.com/jopt-simple/jopt-simple) [JArgs](http://jargs.sourceforge.net/), [yargs](https://yargs.js.org/), [args](https://www.npmjs.com/package/args), [commander](https://www.npmjs.com/package/commander)), explore them and pick one. Note, support and ease of use may be an important factor in choosing a library -- explore alternatives if a library is confusing, too complex, poorly documented, or uses language features you do not understand.
+You are free to use any open source library on *Maven Central* for this project. There are many many choices with different levels of quality and documentation (e.g., [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/), [jopt](https://github.com/jopt-simple/jopt-simple), [JArgs](http://jargs.sourceforge.net/)), explore them and pick one. Note, support and ease of use may be an important factor in choosing a library -- explore alternatives if a library is confusing, too complex, poorly documented, or uses language features you do not understand.
 
 **Infrastructure and quality requirements.** 
 
 * Push all your code to GitHub using good practices (e.g., cohesive commits, descriptive commit messages). 
-* Your code should compile and pass automated checks when executed with the build tool (`mvn site` or `npm build`). Your code should automatically be executed on [GitHub Actions](https://github.com/features/actions), a continuous integration service. Your build should succeed on GitHub Actions, however, GitHub Actions is not configured as an auto-grader for this assignment and does not perform any tests. Passing GitHub Actions is just a minimum bar, not a sufficient condition for completing the homework. You can find the results of the automated checks in the _Actions_ tab of your GitHub repository.
+* Your code should compile and pass automated checks when executed with the build tool (`mvn site`). Your code should automatically be executed on [GitHub Actions](https://github.com/features/actions), a continuous integration service. Your build should succeed on GitHub Actions, however, GitHub Actions is not configured as an auto-grader for this assignment and does not perform any tests. Passing GitHub Actions is just a minimum bar, not a sufficient condition for completing the homework. You can find the results of the automated checks in the _Actions_ tab of your GitHub repository.
 * Follow good design practices as discussed: Hide information where appropriate. Program against interfaces, not against classes.
-* For all new code that you write, follow the style guidelines of the language you are working in ([Java code conventions](https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html), [StandardJS guidelines](https://standardjs.com/)). We have installed tools (CheckStyle and ESlint) that will automatically check conformance to many style guidelines in your repository.
-* If you add libraries, add them as *maven* or *npm* dependencies. Do *not* copy library code into the repository.
+* For all new code that you write, follow the [Java code conventions](https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html). We have installed Checkstyle that will automatically check conformance to many style guidelines in your repository.
+* If you add libraries, add them as *maven* dependencies. Do *not* copy library code into the repository.
 
-**Hints.** The first labs cover some basics and best practices of working with Git and provides guidance on how to set up your development environment. The second lecture covers basic design principles for object-oriented design, especially encapsulation. The subsequent readings provides pointers to relevant language concepts, but you will probably need to engage with language documentation beyond the presented basic concepts yourself (for example, the provided code uses recent Java features and ES6 features). 
+**Hints.** The first labs cover some basics and best practices of working with Git and provides guidance on how to set up your development environment. The second lecture covers basic design principles for object-oriented design, especially encapsulation. The subsequent readings provides pointers to relevant language concepts, but you will probably need to engage with language documentation beyond the presented basic concepts yourself (for example, the provided code uses recent Java features). 
 
 Descriptive commit messages are those where an experienced developer would be able infer what the scope of your changes is from just reading the commit message. Your commit messages do not necessarily need to explicity refer to files changed. They should describe the changes your commit will make in an imperative present tense sentence. Here are a few examples of descriptive commit messages: "Implement recent mistakes first sorter", "Fix CLI incorrectly handling repetitions", "Add documentation for recent mistakes first sorter". Avoid commit messages like "Finish Java" or "Add comments" as they don't have enough detail for someone to understand what exactly is being changed. 
 
@@ -73,30 +71,27 @@ Always push all code to GitHub. Once you have pushed your final code there and a
 
 ## Evaluation
 
-The assignment is worth 150 points. We will grade the assignment with this rubric:
+The assignment is worth 135 points. We will grade the assignment with this rubric:
 
-**New card organizer (50pt):**
+**New card organizer (45pt):**
 
-- [ ] 20: The solution implements the above specification correctly and nothing more for both languages (partial credit 15pt for one language)
-- [ ] 5: The TypeScript implementation is reasonably well documented, using the API documentation style of the language.
-- [ ] 5: The Java implementation is reasonably well documented, using the API documentation style of the language.
-* [ ] 20: The implementation in both languages is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes. (partial credit 15pt for one language)
+- [ ] 20: The solution implements the above specification correctly and nothing 
+- [ ] 5: The implementation is reasonably well documented, using the API documentation style of the language.
+* [ ] 20: The implementation is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes.
       
 
 **Command-line processing (55pt):**
 
-- [ ] 15: The implementation in both languages makes use of an external library, imported through a package manager (partial credit 10pt for one language)
-- [ ] 20: The implementation in both languages parses and validates target files for card decks and all 4 options listed above. It rejects invalid options or arguments with an error message. Examples of invalid options or arguments include negative numbers for repetitions and organizers that don't exist or contain numbers.  (partial credit 15pt for one language)
-- [ ] 20: The implementation in both languages responds correctly to the command-line options -- opens the right card deck, uses the right organization strategies, lists help, etc. (partial credit 15pt for one language)
+- [ ] 15: The implementation makes use of an external library, imported through a package manager.
+- [ ] 20: The implementation parses and validates target files for card decks and all 4 options listed above. It rejects invalid options or arguments with an error message. Examples of invalid options or arguments include negative numbers for repetitions and organizers that don't exist or contain numbers.
+- [ ] 20: The implementation responds correctly to the command-line options -- opens the right card deck, uses the right organization strategies, lists help, etc.
 
-**Infrastructure and style (45pt):**
+**Infrastructure and style (35pt):**
 
 * [ ] 10: The URL submitted to Canvas is in the specified format and links to a specific commit.
-* [ ] 5: The TypeScript build is executed and passes on GitHub Actions.
-* [ ] 5: The Java build is executed and passes on GitHub Actions.
+* [ ] 5: The build is executed and passes on GitHub Actions.
 * [ ] 5: Most commits are reasonably cohesive
 * [ ] 5: Most commit messages are reasonably descriptive
-* [ ] 5: The TypeScript code generally follows the common TypeScript style guidelines (e.g., as checked by ts-standard)
 * [ ] 5: The Java code generally follows the Java style guidelines (e.g., as checked by CheckStyle)
-* [ ] 5: The implementation in both languages is clean and concise. It does not introduce unnecessary variables or dead or out-commented code. 
+* [ ] 5: The implementation is clean and concise. It does not introduce unnecessary variables or dead or out-commented code. 
 
