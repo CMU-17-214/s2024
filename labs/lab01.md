@@ -14,7 +14,7 @@ During this course, you will become familiar with several popular and industry-r
 
 ## Setting Up Your Repo 
 
-In this lab, we will work with the starter code from homework 1. Each student in 17-214/514 is assigned a GitHub repo per homework assignment. You can create it by following the GitHub Classroom link in the description of [Homework 1 on Canvas](https://canvas.cmu.edu/courses/39213/assignments/675175).
+In this lab, we will work with the starter code from Homework 1. Each student in 17-214/514 is assigned a GitHub repo per homework assignment. You can create it by following the GitHub Classroom link in the description of [Homework 1 on Canvas](https://canvas.cmu.edu/courses/39213/assignments/675175).
 
 - If you do not have *git* yet, follow the [download instructions](https://git-scm.com/downloads).
 - If you do not have a *GitHub* account yet, [create one](https://github.com/). 
@@ -87,7 +87,7 @@ You need to have Java 21 installed for this project. Do not downgrade your Java 
 
 ![img](figures/vscode-run.png)
 
-To run a program go to the Main class (`Main.java`), you should see a *Run | Debug* prompt above the main method. Click *Run*. You will be able to view the run result at the bottom. You can interact with this program by replying on the console and hitting “enter”.
+To run a program go to the main class (`Main.java`), you should see a *Run | Debug* prompt above the main method. Click *Run*. You will be able to view the run result at the bottom. You can interact with this program by replying on the console and hitting “enter”.
 
 Alternatively, you can open the `Main.java` file and then open the *Run and Debug* tab on the left sidebar (4th from the top). Pressing Run and Debug will have the same effect as pressing Debug on the prompt above the main method. 
 
