@@ -54,7 +54,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Jan 17</td>
-      <td><span class="rec">Lab 1</span> Course Infrastructure Setup</a></td>
+      <td><span class="rec">Lab 1</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab01.md">Course Infrastructure Setup</a></td>
       <td></td>
     </tr>
     <tr class="">
