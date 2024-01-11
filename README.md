@@ -83,7 +83,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Jan 29</td>
-      <td><span class="assignment"><span class="hw">HW 1 due</span>Flash cards (Intro to OO and Libraries)</td>
+      <td><span class="assignment"><span class="hw">HW 1 due</span> Flash cards (Intro to OO and Libraries)</td>
       <td></td>
     </tr>
     <tr class="">
