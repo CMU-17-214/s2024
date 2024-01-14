@@ -65,7 +65,7 @@ For Mac users, you might find it easiest to install maven using homebrew: `brew 
 
 Explore the `pom.xml` file to see how the project is currently configured.
 
-*Checkpoint:* In your local directory, try to run `mvn install` which will download dependencies and compile the code. You can either type `mvn install` in the terminal or click the Maven tab on the bottom left, scroll down to “install” and press the triangle.
+*Checkpoint:* In the java subdirectory of your local homework 1 repository, try to run `mvn install` which will download dependencies and compile the code. You can either type `mvn install` in the terminal or click the Maven tab on the bottom left, scroll down to “install” and press the triangle.
 
 ### VSCode for Java
 
