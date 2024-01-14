@@ -51,6 +51,12 @@ Any combination of the options should be able to be applied at the same time; ho
 
 You are free to use any open source library on *Maven Central* for this project. There are many many choices with different levels of quality and documentation (e.g., [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/), [jopt](https://github.com/jopt-simple/jopt-simple), [JArgs](http://jargs.sourceforge.net/)), explore them and pick one. Note, support and ease of use may be an important factor in choosing a library -- explore alternatives if a library is confusing, too complex, poorly documented, or uses language features you do not understand.
 
+**Task 3: Additional Achievements.** There is already an implementation of one achievement, which is awarded if the user completes a round of questions with an average time less than 5 seconds per question.  Implement three more achievements, adding them to the AchievementType enum.  The achievements are specified as follows:
+
+* CORRECT: all questions were answered correctly in the latest round
+* REPEAT: at least one card has been answered more than 5 times
+* CONFIDENT: at least one card has been answered correctly at least 3 times
+
 **Infrastructure and quality requirements.** 
 
 * Push all your code to GitHub using good practices (e.g., cohesive commits, descriptive commit messages). 
@@ -71,13 +77,13 @@ Always push all code to GitHub. Once you have pushed your final code there and a
 
 ## Evaluation
 
-The assignment is worth 135 points. We will grade the assignment with this rubric:
+The assignment is worth 150 points. We will grade the assignment with this rubric:
 
-**New card organizer (45pt):**
+**New card organizer (25pt):**
 
-- [ ] 20: The solution implements the above specification correctly and nothing 
+- [ ] 10: The solution implements the above specification correctly and nothing more
 - [ ] 5: The implementation is reasonably well documented, using the API documentation style of the language.
-* [ ] 20: The implementation is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes.
+* [ ] 10: The implementation is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes.
       
 
 **Command-line processing (55pt):**
@@ -85,6 +91,10 @@ The assignment is worth 135 points. We will grade the assignment with this rubri
 - [ ] 15: The implementation makes use of an external library, imported through a package manager.
 - [ ] 20: The implementation parses and validates target files for card decks and all 4 options listed above. It rejects invalid options or arguments with an error message. Examples of invalid options or arguments include negative numbers for repetitions and organizers that don't exist or contain numbers.
 - [ ] 20: The implementation responds correctly to the command-line options -- opens the right card deck, uses the right organization strategies, lists help, etc.
+
+**Achievements (35pt):**
+- [ ] 30: The solution implements the above specification correctly and nothing more (10 points for each achievement)
+- [ ] 5: The implementation is reasonably well documented, using the API documentation style of the language.
 
 **Infrastructure and style (35pt):**
 
