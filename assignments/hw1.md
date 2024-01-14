@@ -1,12 +1,12 @@
 # Homework 1: Warm-Up with Flash Cards
 
-In this assignment, you will complete a simple [flashcard](https://en.wikipedia.org/wiki/Flashcard) learning system. For now, we are keeping things simple and use an interactive command-line interface, one of the simplest and oldest user interfaces for computer programs. The goals of this assignment are to familiarize you with our course infrastructure, let you practice object-oriented programming in Java and TypeScript, and start using public libraries. While you will only write very little code for this assignment, you may spend significant time getting familiar with the languages, infrastructure, and tooling.
+In this assignment, you will complete a simple [flashcard](https://en.wikipedia.org/wiki/Flashcard) learning system. For now, we are keeping things simple and use an interactive command-line interface, one of the simplest and oldest user interfaces for computer programs. The goals of this assignment are to familiarize you with our course infrastructure, let you practice object-oriented programming in Java, and start using public libraries. While you will only write a little code for this assignment, you may spend significant time getting familiar with the language, infrastructure, and tooling.
 
 ## Provided Implementation
 
-Like often common in software engineering practice, you won't start entirely from scratch but start with an existing implementation. Fortunately, it's even somewhat documented and clean, so you should be able to figure out what's happening by reading documentation and code. You may change existing code if you like. 
+As is often common in software engineering practice, you won't start entirely from scratch but start with an existing implementation. Fortunately, it's even somewhat documented and clean, so you should be able to figure out what's happening by reading documentation and code. You may change existing code if you like. 
 
-With the GitHub classroom link on Canvas create a Git repository with the provided starter code. You should use an IDE to load and edit the projects. We recommend (and will only provide support for) [VSCode](https://code.visualstudio.com/) for both Java and TypeScript development to reduce the tedium of switching between two IDEs, but you are welcome to use [IntelliJ](https://www.jetbrains.com/idea/) or other IDEs if you prefer (note you can get free access to Enterprise IntelliJ via an Education discount, which will give you access to TypeScript support).
+With the GitHub classroom link on Canvas create a Git repository with the provided starter code. You should use an IDE to load and edit the projects. We recommend (and will only provide support for) [VSCode](https://code.visualstudio.com/) for Java (and later TypeScript) development to reduce the tedium of switching between two IDEs, but you are welcome to use [IntelliJ](https://www.jetbrains.com/idea/) or other IDEs if you prefer (note you can get free access to Enterprise IntelliJ via an Education discount, which will give you access to TypeScript support).
 
 ## Tasks
 
@@ -16,7 +16,7 @@ Starting points: try to dissect the specification into its main components.  Wha
 
 We recommend to name your new sorter `RecentMistakesFirstSorter`. Your sorter should implement the *CardOrganizer* interface.
 
-Note that only a relatively small amount of code is necessary to implement this new class, regardless of language. Only minimal changes will be required outside of your new class, in particular to test the new sorter by using it in place of the sorter the code starts with (`CardShuffler`/`newCardShuffler`). 
+Note that only a relatively small amount of code is necessary to implement this new class, regardless of language. Only minimal changes will be required outside of your new class, in particular to test the new sorter by using it in place of the sorter the code starts with (`CardShuffler`). 
 
 **Task 2: Command-line interface.** There is already some implementation of a textual user interface that prints questions and reads answers.  But, the codebase implements a number of different card ordering and filtering mechanisms; the UI does not take advantage of them.  It also does not read in a filename for the card file; this is hard-coded.  This is not very user friendly.
 
