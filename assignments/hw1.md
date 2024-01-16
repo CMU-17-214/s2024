@@ -16,7 +16,7 @@ Starting points: try to dissect the specification into its main components.  Wha
 
 We recommend to name your new sorter `RecentMistakesFirstSorter`. Your sorter should implement the *CardOrganizer* interface.
 
-Note that only a relatively small amount of code is necessary to implement this new class, regardless of language. Only minimal changes will be required outside of your new class, in particular to test the new sorter by using it in place of the sorter the code starts with (`CardShuffler`). 
+Note that only a relatively small amount of code is necessary to implement this new class, regardless of language. Only minimal changes will be required outside of your new class, in particular to test the new sorter by using it in place of the sorter the code starts with (`CardShuffler`).
 
 **Task 2: Command-line interface.** There is already some implementation of a textual user interface that prints questions and reads answers.  But, the codebase implements a number of different card ordering and filtering mechanisms; the UI does not take advantage of them.  It also does not read in a filename for the card file; this is hard-coded.  This is not very user friendly.
 
@@ -64,6 +64,7 @@ You are free to use any open source library on *Maven Central* for this project.
 * Follow good design practices as discussed: Hide information where appropriate. Program against interfaces, not against classes.
 * For all new code that you write, follow the [Java code conventions](https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html). We have installed Checkstyle that will automatically check conformance to many style guidelines in your repository.
 * If you add libraries, add them as *maven* dependencies. Do *not* copy library code into the repository.
+* We will be testing your code by building a "fat JAR" with `mvn clean package`, and running it with `java -jar [your-executable] [argument-list]`. Please make sure that `mvn clean package` works with your code before you submit it.
 
 **Hints.** The first labs cover some basics and best practices of working with Git and provides guidance on how to set up your development environment. The second lecture covers basic design principles for object-oriented design, especially encapsulation. The subsequent readings provides pointers to relevant language concepts, but you will probably need to engage with language documentation beyond the presented basic concepts yourself (for example, the provided code uses recent Java features). 
 
