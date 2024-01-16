@@ -49,7 +49,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr class="">
       <td>Tue, Jan 16</td>
-      <td>Introduction</td>
+      <td><a href="https://docs.google.com/presentation/d/1w53j54X7w8TOMeESE997axKLSGXoH3svhZMr9QY_YmQ/edit?usp=sharing">Introduction</a></td>
       <td></td>
     </tr>
     <tr>
