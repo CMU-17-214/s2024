@@ -367,7 +367,7 @@ Rajath Mahendrappa Kotyal [rajathm],
 Sitong Shang [sitongs],
 Wenjun Zhou [wejunz2],
 Yikang Cheng [yikangc],
-Zhiwei Tong [zhiweit]
+Zhewei Tong [zheweit]
 
 ## **Course Syllabus and Policies**
 
