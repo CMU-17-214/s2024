@@ -71,7 +71,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Jan 24</td>
-      <td><span class="rec">Lab 2</span> Encapsulation</td>
+      <td><span class="rec">Lab 2</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab02.md">Encapsulation</a></td>
       <td></td>
     </tr>
     <tr class="">
