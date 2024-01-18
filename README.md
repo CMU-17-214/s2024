@@ -239,7 +239,7 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td></td>
     </tr>
     <tr>
-      <td>Thu, Mar 22</td>
+      <td>Thu, Mar 21</td>
       <td>Libraries and Frameworks</td>
       <td></td>
     </tr>
