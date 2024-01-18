@@ -30,8 +30,6 @@ Demonstrate those practices with all commits you do in this lab and also in all 
 
 Fork and clone this repository: [https://github.com/CMU-17-214/s24-lab02.](https://github.com/CMU-17-214/s24-lab02.git)
 
-This repository contains equivalent starter code in Java. 
-
 First, get familiar with the source code. Find the entry point, follow imports, and understand classes/types used. Run the code (recall Recitation 1 for instructions). Generally the code is structured as follows:
 
 - The `shapes/` folder contains the Shape interface and several implementing classes.
@@ -52,4 +50,4 @@ Third, rewrite the code to improve encapsulation and information hiding. Here ar
 
 
 
-Finally, commit your solutions (in both languages) using good commit practices (see our [Git instructions](git-basics.md) if needed).
+Finally, commit your solution using good commit practices (see our [Git instructions](git-basics.md) if needed).
