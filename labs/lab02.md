@@ -1,13 +1,13 @@
 # Lab 2: Encapsulation
 
-In this lab you will get familiar with core language features for encapsulation in Java and TypeScript and practice with encapsulation and information hiding.
+In this lab you will get familiar with core language features for encapsulation in Java and practice with encapsulation and information hiding.
 
 
 
 ## Deliverables
 
-- [ ] Rewrite the Java implementation to improve encapsulation. The code (a) should program against an interface where possible, (b) should hide all implementation details with language mechanisms, and (c) should still be runnable.
-- [ ] Rewrite the TypeScript implementation to improve encapsulation. The code (a) should program against an interface where possible, (b) should hide all implementation details with language mechanisms, and (c) should still be runnable.
+- [ ] Rewrite the Java implementation to improve encapsulation. The code should hide implementation details with language mechanisms.
+- [ ] Adjust the code to use interfaces instead of direct implementations while maintaining functionality. 
 - [ ] Demonstrate your understanding of good commit practices with the commits solving this encapsulation task.
 
 
@@ -28,15 +28,15 @@ Demonstrate those practices with all commits you do in this lab and also in all 
 
 ## Improving Encapsulation
 
-Fork and clone this repository: https://github.com/CMU-17-214/f23-lab02.
+Fork and clone this repository: [https://github.com/CMU-17-214/s24-lab02.](https://github.com/CMU-17-214/s24-lab02.git)
 
-This repository contains equivalent starter code in both Java and TypeScript. You will complete this task in both languages.
+This repository contains equivalent starter code in Java. 
 
 First, get familiar with the source code. Find the entry point, follow imports, and understand classes/types used. Run the code (recall Recitation 1 for instructions). Generally the code is structured as follows:
 
 - The `shapes/` folder contains the Shape interface and several implementing classes.
 - A `Renderer` class takes a `Rectangle` object and provides a `draw` method.
-- `Main.java` or `index.ts` creates a `Renderer` backed by a `Rectangle` and calls `draw()` on it.
+- `Main.java` creates a `Renderer` backed by a `Rectangle` and calls `draw()` on it.
 
 
 
