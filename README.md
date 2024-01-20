@@ -59,7 +59,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Jan 18</td>
-      <td><a href="https://docs.google.com/presentation/d/1b2Gv-uoAGUH-mvDk8-N4xskyNH1ijsDLnpJiDEH1dqk/edit?usp=sharing">OO basics, Dynamic dispatch, Encapsulation</a></td>
+      <td><a href="https://docs.google.com/presentation/d/1b2Gv-uoAGUH-mvDk8-N4xskyNH1ijsDLnpJiDEH1dqk/edit?usp=sharing">OO basics, Dynamic dispatch, Encapsulation</a>; <a href="https://github.com/CMU-17-214/s2024/blob/main/examples/lect02simulation.zip">example code</a></td>
       <td></td>
     </tr>
   </tbody>
