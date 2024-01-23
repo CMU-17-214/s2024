@@ -4,7 +4,7 @@ In this assignment, you will test the FlashCards system that you expanded in the
 
 This assignment will give you experience creating unit tests against a specification and to cover code with tests as you write it. You will practice following dedicated testing strategies and best practices for unit testing. You will automate your tests with continuous integration and use test coverage tools.
 
-Specifically, you will perform *structural testing* for the Java implementation and *specification testing* for the TypeScript implementation in your Homework 1 repo. 
+Specifically, you will perform *structural testing* and *specification testing* for the Java implementation in your Homework 1 repo. 
 
 ## Starter code
 
@@ -16,12 +16,12 @@ If you prefer a fresh start,  you can start over by creating a new branch off th
 
 ### Part 1: Infrastructure setup
 
-Set up the project so that you can write and execute unit tests. We explain *JUnit* and *ts-jest* both in class and provide an example setup in a lab, but you are welcome to use other test frameworks. Make sure that tests are automatically executed with `mvn test` or `npm test` and as part of the GitHub Actions build. We recommend also to identify how you can view test coverage in your IDE or in a generated report.
+Set up the project so that you can write and execute unit tests. We explain *JUnit* both in class and provide an example setup in a lab, but you are welcome to use other test frameworks. Make sure that tests are automatically executed with `mvn test` and as part of the GitHub Actions build. We recommend also to identify how you can view test coverage in your IDE or in a generated report.
 
 
-### Part 2: Specification-base testing (TypeScript)
+### Part 2: Specification-base testing
 
-Read the public interface specification of every method in the FlashCard **TypeScript** source code, except the exclusions below (don't forget your new `recentMistakesFirstSorter`). Write test cases in **TypeScript** that check whether the implementation covers the specification completely and precisely as best as possible -- even if the implementation is wrong! You may find implementation issues in your newly added `recentMistakesFirstSorter`; make sure to fix such bugs so that your tests all pass.
+Read the public interface specification of every method in the FlashCard source code, except the exclusions below (don't forget your new `recentMistakesFirstSorter`). Write test cases that check whether the implementation covers the specification completely and precisely as best as possible -- even if the implementation is wrong! You may find implementation issues in your newly added `recentMistakesFirstSorter`; make sure to fix such bugs so that your tests all pass.
 
 That means:
 
@@ -38,22 +38,22 @@ When writing test cases, make sure you follow good practices for test design, as
 
 **What to test.** 
 
-Minus the below exceptions, you should test **all TypeScript functions that have specifications** in the original code base, including the new `recentMistakesFirstSorter` that you added.
+Minus the below exceptions, you should test **all functions that have specifications** in the original code base, including the new `recentMistakesFirstSorter` that you added.
 
 You do _not_ need to test: 
 
 - `toString`, `get*` methods: these contain trivial or non-essential functionality. Your tests may, of course, use getter methods.
-- `index.ts` and any code written for parsing command line options: these depend heavily on your implementation in homework 1, for which we specified no interface.
-- `loadCards` in `store.ts`: this deals with I/O.
-- `cardshuffler.ts`: randomness is hard to test.
-- `ui.ts`: you will not need to test UI.
+- `Main.java` and any code written for parsing command line options: these depend heavily on your implementation in homework 1, for which we specified no interface.
+- `loadCardsFromFile()` function in `CardLoader.java`: this deals with I/O.
+- `CardShuffler.java`: randomness is hard to test.
+- `UI.java`: you will not need to test UI.
 
 Please note that the last four exclusions would not be industry-standard. They are nontrivial to test, though. We will show you later in the course how you can test such functionality.
 
-Our reference implementation has about 40 tests.  As a hint, for `cardorganizer.ts`, there are many different possible combinations of sorters and repeaters.  You should _not_ need to test all combinations to achieve suitable specification coverage!
+Our reference implementation has about 40 tests.  As a hint, for `CardOrganizer.java`, there are many different possible combinations of sorters and repeaters.  You should _not_ need to test all combinations to achieve suitable specification coverage!
 
 
-### Part 3: Structural testing (Java)
+### Part 3: Structural testing
 
 Write structural tests in **Java** for the files under the `achievement` folder to achieve 100% *branch* coverage. You do not need to test `UI.java` which is where achievements are displayed. You do not need to achieve a branch coverage goal for any other code, and we will not evaluate your test quality for the achievements with injected bugs.
 
@@ -85,12 +85,12 @@ The assignment is worth 100 points. We will grade the assignment with this rubri
 
 * [ ] Submissions that do not provide a link in the expected format can not be graded and will not receive credit.
 
-**Specification-based Tests in TypeScript (30pt):**
+**Specification-based Tests (30pt):**
 
 - [ ] 10: No tests fail on a correct implementation. We will swap out the code in `cards`, `data`, and `ordering` for five different correct implementations of the provided specification. Points will be awarded proportional to the number of implementations that pass your test suite.
 - [ ] 20: At least one test fails for each of about 20 bugs we introduce in an otherwise correct implementation. We will run your code against multiple new implementations in `cards`, `data`, and `ordering` that are entirely correct except for a single bug. One or more of your tests should fail because of said bug. Points will be awarded proportional to the number of bugs discovered by your test suite.
 
-**Structural Tests in Java (20pt):**
+**Structural Tests (20pt):**
 
 - [ ] 20: Test cases achieve perfect branch coverage on the required classes (10pt partial credit for >90% branch coverage).
 
@@ -103,8 +103,8 @@ We will analyze 5 randomly sampled tests:
 
 **Infrastructure and style (20pt):**
 
-* [ ] 5: The project is set up to generate coverage reports for Java (on the command line or in a file) with `mvn site` 
-* [ ] 5: GitHub Actions runs tests for the TypeScript and Java code automatically.
+* [ ] 5: The project is set up to generate coverage reports (on the command line or in a file) with `mvn site` 
+* [ ] 5: GitHub Actions runs tests for the Java code automatically.
 * [ ] 5: The build passes on GitHub Actions
 * [ ] 5: Most commits are reasonably cohesive and most commit messages are reasonably descriptive
 
