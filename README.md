@@ -93,7 +93,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Jan 31</td>
-      <td><span class="rec">Lab 3</span> Unit testing</a></td>
+      <td><span class="rec">Lab 3</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab03.md">Unit testing</a></td>
       <td></td>
     </tr>
     <tr class="">
