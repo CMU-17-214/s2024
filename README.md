@@ -76,7 +76,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Jan 25</td>
-      <td>Specifications and Unit Testing, Exceptions</td>
+      <td><a href="https://docs.google.com/presentation/d/1t6OKuap0bjrd4ikglvhaYD6jOEubugm5oPjW7vWiybE/edit?usp=sharing">Specifications and Unit Testing, Exceptions</a></td>
       <td>Recommended: <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991000042699704436">Java Precisely</a> (Ch 3, 4, 9, 10, 11); <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576570404436">JavaScript: The Good Parts</a> (Ch. 3, 4, 9), <a href="https://www.typescriptlang.org/docs/handbook/intro.html">TypeScript Handbook</a> (Basics, Everyday Types, Object Types)</td>
     </tr>
   </tbody>
