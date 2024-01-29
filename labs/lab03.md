@@ -29,7 +29,7 @@ Write additional tests and execute them from within the IDE.
 For the `ArrayIntQueue` class, use structural testing. Specifically test the underlying implementation of the `ArrayIntQueue` class, not just test against the `IntQueue` specification. 
 1. Open the Java folder with your IDE. Run the `IntQueueTest` class in the IDE (see readme.txt). Change the `mQueue` variable to `ArrayIntQueue` and run the tests again. Use your IDE to see the line coverage result. See appendix 3 for coverage tooling. 
 2. Try to find two bugs in `ArrayIntQueue` by running your tests. Fix each bug that was found. 
-3. Write more test cases to achieve 100% line coverage.  Hint: you also need to write tests for `ensureCapacity`. 
+3. Write more test cases to achieve 100% line coverage.
 
 ## Appendix 1: Test Integration in VSCode
 The `Test Runner for Java` plugin in VSCode provides great test integration functionality. The testing side panel shows all the tests of the current project. You can also run all tests or a particular test here.
