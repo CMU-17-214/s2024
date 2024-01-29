@@ -1,17 +1,17 @@
 # Lab 4: Software Design and UML
 
-During lecture, we discussed how we analyze problems, design solutions, and communicate them via UML diagrams. In this lab, you will practice creating the diagrams discussed in class using correct UML notation for a hypothetical implementation of Blackjack. We encourage you to review the lecture notes, reference [UML and Patterns](https://cmu.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&vid=01CMU_INST:01CMU&search_scope=MyInst_and_CI&tab=Everything&docid=alma991019576227704436) (Chapter 9-10, 14-15), and work with each other. You are free to draw the diagrams via paper and pencil, tablet, or whatever you choose as long as the diagrams are legible. We recommend [https://www.draw.io](https://www.draw.io).
+During lecture, we discussed how we analyze problems, design solutions, and communicate them via UML diagrams. In this lab, you will practice creating UML diagrams for a hypothetical implementation of Blackjack. We encourage you to review the lecture notes, reference [UML and Patterns](https://cmu.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&vid=01CMU_INST:01CMU&search_scope=MyInst_and_CI&tab=Everything&docid=alma991019576227704436) (Chapter 9-10, 14-15), and work with each other. You are free to draw the diagrams via paper and pencil, tablet, or whatever you choose as long as the diagrams are legible. We recommend [https://www.draw.io](https://www.draw.io).
 
 ## Deliverables
 
-- [ ] Create a domain model for Blackjack as described below, and a system sequence diagram for Blackjack, for the case of a single player starting a new game and playing one round of Blackjack.
+- [ ] Create a domain model for Blackjack as described below, and develop a system sequence diagram depicting a single player starting a new game and playing one round of Blackjack.
 - [ ] Find and fix two problems with coupling/cohesion in the provided object model.
 - [ ] Create an object-level interaction diagram for a player choosing to hit in a round of Blackjack, consistent with your fixed object model and system sequence diagram.
 
 ## Instructions
 
 ### Background
-Suppose you are designing and implementing a simplified version of one of your favorite games, Blackjack, where up to 9 players plays against an automated dealer. 
+Suppose you are designing and implementing a simplified version of Blackjack, where up to 9 players plays against an automated dealer. 
 Here is a short description of the game: 
 
    The objective of Blackjack is to obtain a score higher than the dealer. In each round the **players** and the **dealer** are initially dealt 2 **cards**, with one of the dealer’s cards dealt face down. Each numerical card (2-9) is worth its **face value**, aces are worth either 1 or 11 (it is the player’s choice), and all face cards (ten, jack, queen, and king) are worth 10. 
@@ -24,11 +24,11 @@ Here is a short description of the game:
 
 ### Domain Model 
 
-Build a vocabulary by creating a _domain model_ for this problem. Document all relevant concepts you may need and include important attributes and associations. (Remember, a domain model is used to analyze the problem; it describes concepts and abstractions of the real world, not software classes.) 
+Build a vocabulary by creating a _domain model_ for this problem. Document all relevant concepts and include important attributes and associations. (Remember, a domain model is used to analyze the problem; it describes concepts and abstractions of the real world, not software classes.) 
 
 ### System Sequence Diagram
 
-A _system sequence diagram_ is a model that shows, for one scenario of use, the sequence of events that occur between users of the system (actors) and the system itself. 
+A _system sequence diagram_ is a model that shows, for one scenario of use, the sequence of events that occur between users(actors) and the system itself. 
 
 
 A system sequence diagram should specify and show the following: 
@@ -43,10 +43,10 @@ Create a _system sequence diagram_ to model the interactions of a single player 
 
 ### Object Model
 
-Here is a proposed object model for Blackjack: [https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing](https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing).
+Review the proposed object model for Blackjack: [https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing](https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing).
 ![lab04-object-model-problem](images/lab04/blackjack_object_problem.jpg)
 
-There are several poor design choices shown by the object model, involving low cohesion and high coupling. Find and correct two of these design problems on the object model. 
+There are several poor design choices, involving low cohesion and high coupling. Find and correct two of these design problems on the object model. 
 
 ### Interaction Diagram
 
@@ -54,4 +54,4 @@ To start designing a solution, consider the scenario of:
 
 * During the game, a player decides to take the ‘hit’ action, which includes dealing an additional card, checking whether the player’s turn is over, etc.
 
-Create an _interaction diagram_ (using a UML sequence diagram) that models the **interaction among objects** in this scenario. Your diagram should include specific classes and methods that you drew up in your object model. As you map out the interactions, consider how they might look different had you made different design decisions. Note: To help distinguish this artifact from system sequence diagrams, we sometimes call this an object-level interaction diagram. 
+Create an _interaction diagram_ (using a UML sequence diagram) that models the **interaction among objects** in this scenario. Your diagram should include specific classes and methods in your object model. As you map out the interactions, consider how they might look different had you made different design decisions. Note: To help distinguish this artifact from system sequence diagrams, we sometimes call this an object-level interaction diagram. 
