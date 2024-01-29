@@ -38,7 +38,7 @@ A system sequence diagram should specify and show the following:
   3. Return values (if any) associated with previous messages 
   4. Indication of any loops or iteration area 
 
-Create a _system sequence diagram_ to model the interactions of a single player starting a new game and playing one round of Blackjack. To start designing a solution, think about how the game flows from an initial action (e.g., a user clicking a button, or part of the system requesting some information) to the individual steps following that action. Carefully consider all the interactions a player can make with the system (e.g., the player takes a hit or the player makes a bet). Note, that a system sequence diagram does not include internals of how the system responds to user requests.
+Create a _system sequence diagram_ to model the interactions of a single player starting a new game and playing one round of Blackjack. To start designing a solution, think about how the game flows from an initial action (e.g., a user clicking a button, or part of the system requesting some information) to the individual steps following that action. Carefully consider all the interactions a player can make with the system (e.g., the player takes a hit or the player makes a bet). Note, that a system sequence diagram **does not** include internals of how the system responds to user requests.
 
 
 ### Object Model
@@ -54,4 +54,4 @@ To start designing a solution, consider the scenario of:
 
 * During the game, a player decides to take the ‘hit’ action, which includes dealing an additional card, checking whether the player’s turn is over, etc.
 
-Create an _interaction diagram_ (using a UML sequence diagram) that models the **interaction among objects** in this scenario. Your diagram should include specific classes and methods in your object model. As you map out the interactions, consider how they might look different had you made different design decisions. Note: To help distinguish this artifact from system sequence diagrams, we sometimes call this an object-level interaction diagram. 
+Create an _interaction diagram_ (using a UML sequence diagram) that models the **interaction among objects** in this scenario. Your diagram should include specific classes and methods in your **object model**. As you map out the interactions, consider how they might look different had you made different design decisions. Note: To help distinguish this artifact from system sequence diagrams, we sometimes call this an **object-level interaction diagram**. 
