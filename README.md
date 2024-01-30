@@ -88,7 +88,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Jan 30</td>
-      <td>Test case design</td>
+      <td><a href="https://docs.google.com/presentation/d/1Vc7WytEPcEWJ-KFT1jnfTBjzMe5NKmn1it7VV75cSu8/edit?usp=sharing">Test case design</a></td>
       <td><a href="https://www.testim.io/blog/unit-testing-best-practices/">Unit Testing Best Practices</td>
     </tr>
     <tr>
