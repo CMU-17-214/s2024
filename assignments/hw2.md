@@ -69,7 +69,7 @@ Extend the project's build system (Maven's `pom.xml`) so that it creates a cover
 
 Add a file `reflection.md` to the root folder of your repository with the following sections:
 
-In section **Testing strategy** briefly describe whether you followed any specific test case design strategy, such as boundary value analysis, when creating tests. Briefly explain by providing examples from your code, why you did or did not use these techniques. (about 1 paragraph)
+In section **Testing strategy** briefly describe whether you followed any specific test case design strategy, such as boundary value analysis, when creating tests. Briefly explain, why you did or did not use these techniques. (about 1 paragraph)
 
 In section **Specification vs structure testing** briefly reflect on your experience with the two different testing approaches by providing examples from your code. Was one harder or better than the other for you? (about 1 or 2 paragraphs)
 
