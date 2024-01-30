@@ -71,7 +71,7 @@ Add a file `reflection.md` to the root folder of your repository with the follow
 
 In section **Testing strategy** briefly describe whether you followed any specific test case design strategy, such as boundary value analysis, when creating tests. Briefly explain, why you did or did not use these techniques. (about 1 paragraph)
 
-In section **Specification vs structure testing** briefly reflect on your experience with the two different testing approaches. Was one harder or better than the other for you? (about 1 or 2 paragraphs)
+In section **Specification vs structure testing** briefly reflect on your experience with the two different testing approaches by providing examples from your code. Was one harder or better than the other for you? (about 1 or 2 paragraphs)
 
 If you used AI tools such as ChatGPT or Copilot for any part of homework 1 or 2, add a section **AI Tools** describing what you tried them for and whether you found them useful (open ended).
 
