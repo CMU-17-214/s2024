@@ -105,7 +105,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Feb 5</td>
-      <td><span class="assignment"><span class="hw">HW 2 due</span> Testing</td>
+      <td><span class="assignment"><span class="hw">HW 2 due</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/assignments/hw2.md">Testing</a> </td>
       <td></td>
     </tr>
     <tr class="">
