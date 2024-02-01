@@ -98,7 +98,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Feb 1</td>
-      <td>Object-oriented analysis and UML</td>
+      <td><a href="https://docs.google.com/presentation/d/1OBWr1jR9SG3twSKwRmhl0gC4V4aLb_0HxHYmr8xRFNk/edit?usp=sharing">Object-oriented analysis and UML</a></td>
       <td></td>
     </tr>
   </tbody>
