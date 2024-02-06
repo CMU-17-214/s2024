@@ -1,6 +1,6 @@
 # Homework 3: Santorini (Part 1)
 
-In this assignment, you will design and implement the core logic of a board game called Santorini (2 players, without god cards) in either Java or TypeScript (not both) and you will review other designs for this game. The focus of this assignment is on considering design alternatives for code. This assignment is intended as a gentle introduction to modeling on a relatively simple problem. It is intended to be low stakes and you will have opportunities to receive feedback and learn from mistakes. In Homework 6, we will revisit the game and extend it with god cards and with a GUI. 
+In this assignment, you will design and implement the core logic of a board game called Santorini (2 players, without god cards) in Java and you will review other designs for this game. The focus of this assignment is on considering design alternatives for code. This assignment is intended as a gentle introduction to modeling on a relatively simple problem. It is intended to be low stakes and you will have opportunities to receive feedback and learn from mistakes. In Homework 6, we will revisit the game and extend it with god cards and with a GUI. 
 
 **This homework has 3 milestones:**
 
@@ -56,7 +56,7 @@ To submit these documents, (a) push them to the root directory of your Santorini
 
 ### Implementation & Test
 
-Implement the game **either** in Java or TypeScript (not both). As usual, document your code for all public functions.
+Implement the game in Java. As usual, document your code for all public functions.
 
 It is encouraged that your tests should include unit tests as well as integration tests that set up the game and play sequences of turns. To achieve that, it is a good strategy to write tests while you implement each function, and go back to add a little more tests in case you missed any important test cases and functionality after you complete your implementation.
 
@@ -205,5 +205,3 @@ We recommend to set up a `.gitignore` file to avoid committing generated files. 
 We require you to set up GitHub actions to compile and test the project. You can adapt the setup from homework 1 in `.github/workflows`.
 
 Further reading: [Maven - How to create a Java project](https://mkyong.com/maven/how-to-create-a-java-project-with-maven/), [Maven Archetype Plugin – archetype:generate](https://maven.apache.org/archetype/maven-archetype-plugin/generate-mojo.html), [Maven – Introduction to the POM](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html), [Maven – Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html), [ignoring files in Git](https://www.atlassian.com/git/tutorials/saving-changes/gitignore), [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
-
-If you are using TypeScript, we recommend to use the configuration from homework 1 as a starting point.
