@@ -13,7 +13,7 @@
 ## Instructions
 
 ### Setup
-<u>Fork</u> and clone the repo from [https://github.com/CMU-17-214/f23-lab05](https://github.com/CMU-17-214/f23-lab05.git)
+<u>Fork</u> and clone the repo from [https://github.com/CMU-17-214/s24-lab05](https://github.com/CMU-17-214/s24-lab05)
 
 ## Task Overview
 You will examine the strengths and weaknesses of inheritance and delegation by using both techniques to add a feature to a ```SortedIntList``` class. The ```SortedIntList``` class is one of a family of integer lists. It is very similar to the  ```AbstractIntList```, except it stores its elements in ascending order.
