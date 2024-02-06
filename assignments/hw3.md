@@ -74,7 +74,7 @@ You should update your design documents from milestone 3a based on insights gain
 
 You will review other solutions to milestone 3a and will point out design problems. This is an exercise in critically reflecting on other designs and identifying common design problems.
 
-About 3 days after the milestone 3a deadline, we will assign you 2 or 3 design documents (not code) from milestone 3a. In addition to  solutions from other students, we might provide you with designs from the course staff that have known problems. You will submit your reviews of these solutions according to a provided rubric on Canvas. Your reviews will be visible to author of those solutions. Reviews are anonymous (reviewers will not know the authors of the solutions and authors will not know the identity of the reviewers).
+About 3 days after the milestone 3a deadline, we will assign you 2 or 3 design documents (not code) from milestone 3a. In addition to  solutions from other students, we might provide you with designs from the course staff that have known problems. You will submit your reviews of these solutions according to a provided rubric on Canvas. Your reviews will be visible to author of those solutions. Reviews are anonymous (reviewers will not know the authors of the solutions and authors will not know the identity of the reviewers). Your reviews should be conducted through the Canvas peer review system with the rubric, not simply as comments for each assigned review.
 
 We will evaluate whether your reviews correctly point out design problems that exist or incorrectly point out problems where code is well designed.
 
