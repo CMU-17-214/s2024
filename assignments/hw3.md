@@ -20,7 +20,7 @@ This assignment has the following learning goals:
 
 * Communicate design ideas clearly, including design documents that demonstrate fluency with the basic notation of UML class diagrams and interaction diagrams, the correct use of design vocabulary, and an appropriate level of formality in the specification of system behavior.
 
-To start the assignment, use the GitHub classroom link from the Canvas assignment to create your personal repository.  It will be empty -- you will check in both your design documents and your code to this repository. Consult the appendix for guidance on how to make a new Maven project. 
+To start the assignment, use the GitHub classroom link from the Canvas assignment to create your personal repository.  It will only contain a template for one design document -- you will check in both your design documents and your code to this repository. Consult the appendix for guidance on how to make a new Maven project. 
 
 
 
@@ -44,13 +44,13 @@ We strongly recommend to not auto-generated models from code with tools, as thos
 
 **Deliverable 4: Object model.** Create an object model of your game, documented as a UML class diagram. The object model should describe the classes and interfaces of your design, as well as their key associations (with cardinalities), attributes, and methods. For more information on class diagrams, see Chapter 16 of Larman’s Applying UML and Patterns. Model only the core of the game, not GUI elements or test code. Turn this in as `object-model.pdf`.
 
-**Deliverable 5: Justification for handling state.** The implementation needs to store state about the status of the game (at least players, current player, worker locations, towers, and winner). One key design question is usually what objects should store what state. For each kind of state the game needs to store explain where you store it. Provide a justification (with reference to design goals/principles/heuristics) for your responsibility assignment for state; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Ensure that your answer is consistent with your object model. Turn this in as `state-justification.pdf`.
+**Deliverable 5: Justification for handling state.** The implementation needs to store state about the status of the game (at least players, current player, worker locations, towers, and winner). One key design question is usually what objects should store what state. For each kind of state the game needs to store explain where you store it. Using the template provided in the starter repository,pProvide a justification (with reference to design goals/principles/heuristics) for your responsibility assignment for state; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Ensure that your answer is consistent with your object model. Turn this in as `state-justification.md`.
 
 **Deliverable 6: Justification for building action.** Reason about how the implementation determines what is a valid build (either a normal block or a dome) and how it performs the build. Identify what actions are needed and which objects and methods are responsible for performing those actions. Provide a justification (with reference to design goals/principles/heuristics) for your decision on assigning responsibilities; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Include the relevant parts of an **object-level interaction diagram** (using method names and calls) for your final design. For more information on interaction diagram notation, see Chapter 15 of Larman’s Applying UML and Patterns. Turn this in as `build-justification.pdf` containing both the text of your answer and the interaction diagram.
 
 
 
-In summary, we expect 6 files for the design part of this assignment: `/domain-model.pdf`, `/system-sequence-diagram.pdf`, `/contract.pdf` (for moving a worker), `/object-model.pdf`, `/state-justification.pdf` (for responsibility assignment regarding state), and `build-justification.pdf` (for responsibility assignment regarding the build action). 
+In summary, we expect 6 files for the design part of this assignment: `/domain-model.pdf`, `/system-sequence-diagram.pdf`, `/contract.pdf` (for moving a worker), `/object-model.pdf`, `/state-justification.md` (for responsibility assignment regarding state), and `build-justification.pdf` (for responsibility assignment regarding the build action). 
 
 To submit these documents, (a) push them to the root directory of your Santorini repository on Github and (b) submit them as a zip file for peer review to Canvas. *Do not include your AndrewID or name in any of the documents so that peer review can be performed anonymously.*
 
