@@ -34,7 +34,7 @@ Textbooks often describe a sequential process where the solution is designed bef
 
 For analysis and design we expect you to create a number of design documents.
 
-We strongly recommend to not auto-generated models from code with tools, as those are often of low quality. Diagrams should be consistent with one another and other diagrams submitted with the homework.
+We strongly recommend to not auto-generate models from code with tools, as those are often of low quality. Diagrams should be consistent with one another and other diagrams submitted with the homework.
 
 **Deliverable 1: Domain model.** Create a domain model describing the important concepts of the game. Your domain model should be represented by a UML class diagram; you may optionally include a glossary. For more information on domain models, see Chapter 9 of Larman’s Applying UML and Patterns. Turn this in as <code>domain-model.pdf</code> in the root directory of your git repository.
 
@@ -44,7 +44,7 @@ We strongly recommend to not auto-generated models from code with tools, as thos
 
 **Deliverable 4: Object model.** Create an object model of your game, documented as a UML class diagram. The object model should describe the classes and interfaces of your design, as well as their key associations (with cardinalities), attributes, and methods. For more information on class diagrams, see Chapter 16 of Larman’s Applying UML and Patterns. Model only the core of the game, not GUI elements or test code. Turn this in as `object-model.pdf`.
 
-**Deliverable 5: Justification for handling state.** The implementation needs to store state about the status of the game (at least players, current player, worker locations, towers, and winner). One key design question is usually what objects should store what state. For each kind of state the game needs to store explain where you store it. Using the template provided in the starter repository,pProvide a justification (with reference to design goals/principles/heuristics) for your responsibility assignment for state; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Ensure that your answer is consistent with your object model. Turn this in as `state-justification.md`.
+**Deliverable 5: Justification for handling state.** The implementation needs to store state about the status of the game (at least players, current player, worker locations, towers, and winner). One key design question is usually what objects should store what state. For each kind of state the game needs to store explain where you store it. Using the template provided in the starter repository, provide a justification (with reference to design goals/principles/heuristics) for your responsibility assignment for state; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Ensure that your answer is consistent with your object model. Turn this in as `state-justification.md`.
 
 **Deliverable 6: Justification for building action.** Reason about how the implementation determines what is a valid build (either a normal block or a dome) and how it performs the build. Identify what actions are needed and which objects and methods are responsible for performing those actions. Provide a justification (with reference to design goals/principles/heuristics) for your decision on assigning responsibilities; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Include the relevant parts of an **object-level interaction diagram** (using method names and calls) for your final design. For more information on interaction diagram notation, see Chapter 15 of Larman’s Applying UML and Patterns. Turn this in as `build-justification.pdf` containing both the text of your answer and the interaction diagram.
 
@@ -122,7 +122,7 @@ Specifically, we expect to grade the homework with the following rubric:
 
 **Initial submission (30 points, milestone 3a)**
 
-1. [ ] 10: The GitHub submission includes a reasonably complete version of all design documents that demonstrate a good-faith attempt at modeling the problem (`domain-model.pdf`,  <code>system-sequence-diagram.pdf</code>, <code>contract.pdf</code>, `object-model.pdf`, `build-justification.pdf`, and `state-justification.pdf`)
+1. [ ] 10: The GitHub submission includes a reasonably complete version of all design documents that demonstrate a good-faith attempt at modeling the problem (`domain-model.pdf`,  <code>system-sequence-diagram.pdf</code>, <code>contract.pdf</code>, `object-model.pdf`, `build-justification.pdf`, and `state-justification.md`)
 2. [ ] 10: The design documents and only design documents are submitted in a zip file to Canvas without obvious identifying information (no name or AndrewID in any of the documents)
 3. [ ] 10: The GitHub submission includes reasonably complete code and tests that demonstrate a good-faith attempt at implementing the game.
 
@@ -136,7 +136,7 @@ Specifically, we expect to grade the homework with the following rubric:
 
 6. [ ] 15: The object model in file `object-model.pdf` is reasonably complete, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction. 
 7. [ ] 10: The interaction diagram in `build-justification.pdf` is reasonably complete, uses suitable notation, is at the right level of abstraction, and is consistent with the object model (called methods exist in target class, caller has access to target objects).
-8. [ ] 20: Responsibility assignment for the state is clearly explained, appropriate and well justified  in `state-justification.pdf`. We will check:
+8. [ ] 20: Responsibility assignment for the state is clearly explained, appropriate and well justified  in `state-justification.md`. We will check:
    - a. It is clear from the description where players, current player, worker locations, towers, and the winner are stored. 
    - b. The description matches the object model.  
    - c. The responsibility assignment for each piece of state is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
