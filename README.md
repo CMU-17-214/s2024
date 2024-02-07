@@ -144,7 +144,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Feb 19</td>
-      <td><span class="assignment"><span class="hw">HW 3a due</span> Santorini: Intro to Design</td>
+      <td><span class="assignment"><span class="hw">HW 3a due</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/assignments/hw3.md">Santorini: Intro to Design</a></td>
       <td></td>
     </tr>
     <tr class="">
