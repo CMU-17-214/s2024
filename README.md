@@ -120,7 +120,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Feb 8</td>
-      <td>Inheritance & Delegation</td>
+      <td><a href="https://docs.google.com/presentation/d/1MqJ7VS2kpO5kltwyBKqirs0bWl3JuFO1vHGFmF5glVA/edit?usp=sharing">Design for Reuse: Inheritance and Composition</a></td>
       <td></td>
     </tr>
   </tbody>
