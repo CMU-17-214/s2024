@@ -16,9 +16,8 @@ In this lab, you will become a refactoring agent who detect anti-patterns and po
 ## Instructions
 
 ### Setup
-<u>Fork</u> and clone the repo from [https://github.com/CMU-17-214/f23-lab06](https://github.com/CMU-17-214/f23-lab06.git).
-
-Each task is provided in Java and Typescript, so feel free to explore the one you are most comfortable with. If you would like additional exercise, feel free to look into the "accounts" folder and identify the anti-pattern associated with it.
+<u>Fork</u> and clone the repo from [https://github.com/CMU-17-214/s24-lab06](https://github.com/CMU-17-214/s24-lab06.git).
+The task is provided in Java. If you would like additional exercise, feel free to look into the "accounts" folder and identify the anti-pattern associated with it.
 
 In the appendix, we have provided a non-comprehensive list of anti-patterns you might want to read and refer to when doing the tasks. 
 
