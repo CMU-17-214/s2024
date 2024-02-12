@@ -1,14 +1,14 @@
-# Lab 5: Inheritance and Delegation
+# Lab 5: Inheritance and Composition
 
 ## Concepts
-**Inheritance vs Delegation:**
+**Inheritance vs Composition:**
 + Inheritance: Allow one class (Child class) inherits attributes and behaviors from another class (Parent class), promoting code reusability.
-+ Delegation: One class delegates duties to another class which reduces coupling. 
++ Composition: One class reuses functionality from another class through its public interface, which reduces coupling. 
 
 ## Deliverables
 - [ ] Create a subclass of SortedIntList with inheritance that counts how many elements have been added to the list. 
-- [ ] Create a class to extend SortedIntList with delegation to count how many elements have been added to the list. 
-- [ ] Discuss questions regarding the tradeoffs and limitations between inheritance and delegation with a TA (no written answer needed).
+- [ ] Create a class that wraps a SortedIntList using a decorator to count how many elements have been added to the list.
+- [ ] Discuss questions regarding the tradeoffs and limitations between inheritance and composition with a TA (no written answer needed).
 
 ## Instructions
 
@@ -32,13 +32,13 @@ We have provided an empty ```InheritanceSortedIntList``` class where you should 
 
 After you have implemented the ```InheritanceSortedIntList``` class, test the instrumentation you just added using tests in ```InheritanceSortedIntListTest``` class. 
 
-### Task 2: Instrumentation with delegation:
-We have provided an empty ```DelegationSortedIntList``` class where you should implement your delegation-based solution.
+### Task 2: Instrumentation with composition:
+We have provided an empty ```DelegationSortedIntList``` class where you should implement your composition-based solution.
 
 > Hints: 
 > + Ensure your class implements the ```IntegerList``` interface.
-> + Create a private ```SortedIntList``` instance for delegation.
-> + Delegate list operations to the ```SortedIntList``` instance.
+> + Create a private ```SortedIntList``` instance to which you will delegate list-storing functionality.
+> + Forward list operations to the ```SortedIntList``` instance.
 > + Make sure you check that ```getTotalAdded``` works with both ```add``` and ```addAll```.
 > + After you have implemented the ```DelegationSortedIntList``` class, test the instrumentation you just added using tests in ```DelegationSortedIntListTest``` class. 
 
@@ -46,12 +46,12 @@ We have provided an empty ```DelegationSortedIntList``` class where you should i
 Run the tests and make sure your instrumentation passes all the tests. 
 (You might want to use the ```printList``` helper we provided you and read the documentation for ```addAll``` in the ```AbstractIntList``` class.) 
 
-### Task 3: Questions on Delegation and Inheritance 
+### Task 3: Questions on Composition and Inheritance 
 Evaluate your two implementations for the given problem and answer the following questions:
-1. Which is more dependent on the implementation details of the ```SortedIntList```, delegation or inheritance?
+1. Which is more dependent on the implementation details of the ```SortedIntList```, composition or inheritance?
 2. If the ```add``` method in ```SortedIntList``` is significantly modified or its behavior changes, which implementation is more likely to break?
-3. What issues does using delegation solve that might have been problematic with inheritance?
-4. Based on the provided implementations, when would it be more appropriate to use inheritance and when to use delegation?
+3. What issues does using composition solve that might have been problematic with inheritance?
+4. Based on the provided implementations, when would it be more appropriate to use inheritance and when to use composition?
 
 
 ## Appendix
