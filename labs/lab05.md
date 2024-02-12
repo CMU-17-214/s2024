@@ -16,9 +16,9 @@
 <u>Fork</u> and clone the repo from [https://github.com/CMU-17-214/s24-lab05](https://github.com/CMU-17-214/s24-lab05)
 
 ## Task Overview
-You will examine the strengths and weaknesses of inheritance and delegation by using both techniques to add a feature to a ```SortedIntList``` class. The ```SortedIntList``` class is one of a family of integer lists. It is very similar to the  ```AbstractIntList```, except it stores its elements in ascending order.
+You will examine the strengths and weaknesses of inheritance and composition by using both techniques to add a feature to a ```SortedIntList``` class. The ```SortedIntList``` class is one of a family of integer lists. It is very similar to the  ```AbstractIntList```, except it stores its elements in ascending order.
 
-We want to instrument a ```SortedIntList``` to count how many elements have been added since it was created. (This is not the same as its current size, which is reduced when an element is removed). To provide this functionality ```getTotalAdded```, you should count the number of attempted insertions and also provide an access method to get this count. Your solutions should use inheritance and delegation so you can reuse, but not modify, the original ```SortedIntList``` implementation. Please refer to the appendix for the UML diagram. 
+We want to instrument a ```SortedIntList``` to count how many elements have been added since it was created. (This is not the same as its current size, which is reduced when an element is removed). To provide this functionality ```getTotalAdded```, you should count the number of attempted insertions and also provide an access method to get this count. Your solutions should use inheritance and composition so you can reuse, but not modify, the original ```SortedIntList``` implementation. Please refer to the appendix for the UML diagram. 
 
 
 ### Task 1: Instrumentation with inheritance
