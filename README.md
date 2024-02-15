@@ -137,7 +137,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Feb 15</td>
-      <td>Refactoring and Anti-patterns</td>
+      <td><a href="https://docs.google.com/presentation/d/1E2liT3HSUzVG9e2-olecUifFNS7ATu52Ycn1IvM6b8E/edit?usp=sharing">Refactoring and Anti-patterns</a></td>
       <td></td>
     </tr>
   </tbody>
