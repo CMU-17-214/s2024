@@ -50,7 +50,7 @@ We provide you with both a Java implementation and a TypeScript implementation i
 
 *Step 1:* Look for a design problem in the implementation that fits one of the design problems listed above. You will probably need to spend quite some time getting an overview of the code and understanding parts of it.
 
-*Step 2:* Create a GitHub issue with the design problem in the title (e.g., "Fix coupling problem"). The issue text should point out a specific problem at a specific location in the code and explains *why* the specific code is problematic (e.g., why the coupling is bad in this specific case).
+*Step 2:* Create a GitHub issue with the design problem in the title (e.g., "Fix coupling problem"). The issue text should point out a specific problem at a specific location in the code and explains *why* the specific code is problematic (e.g., why the coupling is bad in this specific case). We provide a GitHub issue template outlining this step that you may use when you open the issue.
 
 *Step 3:* Fix the design problem and commit the fix with a meaningful commit message. 
 
