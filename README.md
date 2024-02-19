@@ -154,7 +154,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Feb 21</td>
-      <td><span class="rec">Lab 6</span> Anti-patterns and Refactoring</td>
+      <td><span class="rec">Lab 6</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab06.md">Anti-patterns and Refactoring</a></td>
       <td></td>
     </tr>
     <tr class="midterm">
@@ -204,12 +204,12 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Mar 12</td>
-      <td>Concurrency and Hazards<span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
+      <td><span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
       <td></td>
     </tr>
     <tr>
       <td>Tue, Mar 12</td>
-      <td>Concurrency: Reactive Programming</td>
+      <td>Concurrency and Hazards</td>
       <td></td>
     </tr>
     <tr>
