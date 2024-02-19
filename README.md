@@ -149,7 +149,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Feb 20</td>
-      <td>Introduction to GUIs and Concurrency</td>
+      <td>Introduction to TypeScript</td>
       <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
     </tr>
     <tr>
@@ -171,7 +171,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Feb 27</td>
-      <td>Asynchrony in JavaScript</td>
+      <td>Introduction to GUIs</td>
       <td></td>
     </tr>
     <tr>
@@ -180,7 +180,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Feb 29</td>
-      <td>Concurrency and Hazards</td>
+      <td>Concurrency and Asynchrony in TypeScript</td>
       <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Concurrency model and the event loop</a> + <a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5">How JavaScript works</a></td>
     </tr>
   </tbody>
@@ -204,7 +204,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Mar 12</td>
-      <td><span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
+      <td>Concurrency and Hazards<span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
       <td></td>
     </tr>
     <tr>
