@@ -149,7 +149,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Feb 20</td>
-      <td>Introduction to TypeScript</td>
+      <td><a href="https://docs.google.com/presentation/d/1BMAHVKUaoAPqDNTfa0K0Sx_1YN-GZdq0A4fDVwVzL38/edit?usp=sharing">Introduction to TypeScript</a></td>
       <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
     </tr>
     <tr>
