@@ -204,7 +204,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Mar 12</td>
-      <td><span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
+      <td><span class="assignment"><span class="hw">HW 4 due</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/assignments/hw4.md">Refactoring</a></td>
       <td></td>
     </tr>
     <tr>
