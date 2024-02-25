@@ -171,7 +171,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Feb 27</td>
-      <td>Introduction to GUIs</td>
+      <td><a href="https://docs.google.com/presentation/d/1XO_sXndEXMOQ2B1SDbU9qGuManMntabTVUF-fysipCA/edit?usp=sharing">Introduction to GUIs</a></td>
       <td></td>
     </tr>
     <tr>
