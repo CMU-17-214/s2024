@@ -176,7 +176,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Feb 28</td>
-      <td><span class="rec">Lab 7</span> GUI intro</td>
+      <td><span class="rec">Lab 7</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab07.md">Intro to TypeScript</a></td>
     </tr>
     <tr>
       <td>Thu, Feb 29</td>
