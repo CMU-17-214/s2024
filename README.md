@@ -345,7 +345,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   </tbody>
   <tbody>
     <tr class="midterm">
-      <td>TBD</td>
+      <td>Mon, May 6<br />8:30-11:30am</td>
       <td>Final exam</td>
       <td></td>
     </tr>
