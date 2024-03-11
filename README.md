@@ -214,7 +214,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Mar 13</td>
-      <td><span class="rec">Lab 8</span> Concurrency & Promises</td>
+      <td><span class="rec">Lab 8</span>  <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab08.md">Concurrency & Promises</a></td>
       <td></td>
     </tr>
     <td>Thu, Mar 14</td>
