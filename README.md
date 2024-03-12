@@ -209,7 +209,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Mar 12</td>
-      <td>Concurrency and Hazards</td>
+      <td><a href="https://docs.google.com/presentation/d/1g_azRynAlehCb9dVPNFrpRKRau5Jm7FzEIsd4_uR8Gw/edit#slide=id.g2b6ad5fed65_0_372"Concurrency and Hazards</a></td>
       <td></td>
     </tr>
     <tr>
