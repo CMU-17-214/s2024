@@ -218,7 +218,7 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td></td>
     </tr>
     <td>Thu, Mar 14</td>
-      <td>Distributed Systems -- Events everywhere</td>
+      <td><a href="https://docs.google.com/presentation/d/1u7Rr7oqu5TVLnWng4K_uhe9U_GQy8j2H-9XJpN0jUtI/edit?usp=sharing">Reactive Programming</a></td>
       <td></td>
     </tr>
   </tbody>
