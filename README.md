@@ -247,7 +247,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Mar 25</td>
-      <td><span class="assignment"><span class="hw">HW 5 due</span> Concurrency</td>
+      <td><span class="assignment"><span class="hw">HW 5 due</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/assignments/hw5.md">Concurrency</a></td>
       <td></td>
     </tr>
     <tr>
