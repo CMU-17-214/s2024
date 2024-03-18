@@ -235,7 +235,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Mar 20</td>
-      <td><span class="rec">Lab 9</span> ReactJS</td>
+      <td><span class="rec">Lab 9</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab09.md">ReactJS</a></td>
       <td></td>
     </tr>
     <tr>
