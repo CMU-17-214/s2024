@@ -39,4 +39,4 @@ In the initial implementation, the "Next Question" button remains inactive – i
 Here's what you need to do:
 When a question is displayed, ensure that the "Next Question" button takes users to the following question. To achieve this, you should check if there is a next question available in the quiz. You can utilize the `hasNextQuestion()` method provided in the core logic.
 
-When all questions have been answered, make a "Submit" button visible, and upon clicking it, display the total score. For simplicity, each question in the quiz is worth a score of 1 if answered correctly. You can utilize `the getScore()` method provided in the core logic.
+When all questions have been answered, make a "Submit" button visible, and upon clicking it, display the total score. For simplicity, each question in the quiz is worth a score of 1 if answered correctly. You can utilize the `getScore()` method provided in the core logic.
