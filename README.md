@@ -230,17 +230,17 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Mar 19</td>
-      <td>Design for Robustness & Distributed Systems</td>
+      <td>Parallelism 1</td>
       <td></td>
     </tr>
     <tr>
       <td>Wed, Mar 20</td>
-      <td><span class="rec">Lab 9</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab09.md">ReactJS</a></td>
+      <td><span class="rec">Lab 9</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab09.md">Intro to GUIs</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Thu, Mar 21</td>
-      <td>Libraries and Frameworks</td>
+      <td>Parallelism 2</td>
       <td></td>
     </tr>
   </tbody>
@@ -252,12 +252,12 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Mar 26</td>
-      <td><bf>TBD</bf></td>
+      <td><bf>Libraries and Frameworks</bf></td>
       <td></td>
     </tr>
     <tr>
       <td>Wed, Mar 27</td>
-      <td><span class="rec">Lab 10</span> Test Double (Fakes, Mocks & Stubs)</td>
+      <td><span class="rec">Lab 10</span> Core/GUI separation</td>
       <td></td>
     </tr>
     <tr class="midterm">
@@ -296,7 +296,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Apr 10</td>
-      <td class="break">No lab, Carnival</td>
+      <td><span class="rec">Lab 12</span> Test Double (Fakes, Mocks & Stubs)</td>
       <td></td>
     </tr>
     <tr>
@@ -312,7 +312,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Apr 17</td>
-      <td><span class="rec">Lab 12</span> Cloud Deployment</td>
+      <td><span class="rec">Lab 13</span> Cloud Deployment</td>
       <td></td>
     </tr>
     <tr>
@@ -329,7 +329,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Apr 24</td>
-      <td><span class="rec">Lab 13</span> Design Pattern Review</td>
+      <td><span class="rec">Lab 14</span> Design Pattern Review</td>
       <td></td>
     </tr>
     <tr>
