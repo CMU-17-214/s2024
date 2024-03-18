@@ -6,14 +6,14 @@ In this assignment you will work with concurrency in a Node backend and will mod
 
 Find the starter code with the GitHub Classroom link on Canvas.
 
-You will work on a semi-completed program *SmilingFaces* to analyze faces in Wikipedia pages -- for example are more people smiling in pictures of the Carnegie Mellon wikipedia page or in the University of Pittsburgh wikipedia page? In the web application, you can enter a *topic* for which a Wikipedia page exists and the program will identify all images in the page and determine with an ML model whether the picture contains smiling faces. It can also collect the pictures from other Wikipedia pages linked heavily from the target page ("include top neighbor topics").
+You will work on a semi-completed program *SmilingFaces* to analyze faces in Wikipedia pages -- for example are more people smiling in pictures of the Carnegie Mellon Wikipedia page or in the University of Pittsburgh wikipedia page? In the web application, you can enter a *topic* for which a Wikipedia page exists and the program will identify all images in the page and determine with an ML model whether the picture contains smiling faces. It can also collect the pictures from other Wikipedia pages linked heavily from the target page ("include top neighbor topics").
 
 The starter code already handles all the communication with Wikipedia and the Google Cloud Vision API, but the backend code is currently written synchronously (which is actually quite difficult to do and very unusual for Node code). As a consequence the backend can only respond to a single request at a time and it is very slow. The provided implementation is also bad at error handling.
 
 The code consists of two related projects: The backend *express* implementation in the root directory and the frontend *React* implementation in directory `frontend`.  Compile and run the code as follows:
 
 * First, build the frontend
-  * run `npm install`  in the `frontend/` directory
+  * run `npm install`  in the `frontend/` directory. (Note: deprecation and security vulnerability warnings here are expected)
   * `npm run build` in `frontend/` to build the frontend, which will result in static pages in `frontend/build/`
 * Second, build and run the backend
   * run `npm install` in the root directory
@@ -47,7 +47,7 @@ In the user interface in the web browser you can enter a topic and start the ana
 * Show a progress bar while data is loaded.
 * Show errors from the backend in the frontend, ideally with meaningful error messages.
 
-**What not to change:** We plan to automate some testing of your code and ask you to NOT change the `Connections` interface and the signature of the `smilingFacesBackend` function. Also do not change the protocol between the backend and frontend (i.e., do not change the API endpoint addresses and the interfaces in `jobdata.ts`). Make all external calls through the APIs in `Connections` and do not make web calls with any other API. You may, and probably should, develop your own abstractions on top of the functions in `Connections`.
+**What not to change:** We plan to automate some testing of your code, as such, do NOT change the `Connections` interface and the signature of the `smilingFacesBackend` function. Also do not change the protocol between the backend and frontend (i.e., do not change the API endpoint addresses and the interfaces in `jobdata.ts`). If we cannot grade your submission because you change any of these, we will assign zero points to that specific rubric item. Make all external calls through the APIs in `Connections` and do not make web calls with any other API. You may, and probably should, develop your own abstractions on top of the functions in `Connections`.
 
 ## Submitting your work
 
