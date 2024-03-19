@@ -230,7 +230,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Mar 19</td>
-      <td>Parallelism 1</td>
+      <td><a href="https://docs.google.com/presentation/d/1GO81RIjB0OgBJhwrXihHK8YnFODBlHjDSzEy6EcYVYI/edit?usp=sharing">Parallelism 1</a></td>
       <td></td>
     </tr>
     <tr>
