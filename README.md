@@ -230,7 +230,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Mar 19</td>
-      <td><a href="https://docs.google.com/presentation/d/1GO81RIjB0OgBJhwrXihHK8YnFODBlHjDSzEy6EcYVYI/edit?usp=sharing">Parallelism 1</a></td>
+      <td><a href="https://docs.google.com/presentation/d/1GO81RIjB0OgBJhwrXihHK8YnFODBlHjDSzEy6EcYVYI/edit?usp=sharing">Local Parallelism</a></td>
       <td></td>
     </tr>
     <tr>
@@ -240,7 +240,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Mar 21</td>
-      <td>Parallelism 2</td>
+      <td> <a href="https://docs.google.com/presentation/d/1OitlCXvykkUSoSeh5NJslPbErO0aR7V4qgTPxxZVfOk/edit?usp=sharing">Designing and Testing for Robustness in Large & Distributed Systems</a></td>
       <td></td>
     </tr>
   </tbody>
