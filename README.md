@@ -257,7 +257,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Mar 27</td>
-      <td><span class="rec">Lab 10</span> Core/GUI separation</td>
+      <td><span class="rec">Lab 10</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab10.md">TicTacToe Client/Server</a></td>
       <td></td>
     </tr>
     <tr class="midterm">
