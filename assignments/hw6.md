@@ -53,7 +53,7 @@ You should expect that you may need to substantially revise your base game desig
 
 **Design documentation and justification:** Revisit the design documentation and justification from Homework 3 to make the following updates.
 
-* **Update domain analysis:** Extend your domain model, system sequence diagram, and behavior contracts in `domain-model.pdf`, `system-sequence-diagram.pdf`, `contract.pdf` to include the new concept of god cards in the game. To keep things simple, you do not need to show all cards, but it is sufficient to just include the god card *Demeter* as a single concrete example in your design documents. For the contract you can assume that *the active player has the Demeter card* and the opposing player has no card.
+* **Update domain analysis:** Extend your domain model, system sequence diagram, and behavior contracts in `domain-model.pdf`, `system-sequence-diagram.pdf`, `contract.pdf` to include the new concept of god cards in the game. To keep things simple, you do not need to show all cards. For these three documents, it is sufficient to just include the god card *Minotaur* as a single concrete example. For the contract you can assume that *the active player has the Minotaur card* and the opposing player has no card.
 * **New justification for extension mechanisms:** Explain in about one paragraph how you redesigned your game to be extensible. In addition, as in Deliverable 5 and 6 of Homework 3, provide a justification with reference to design goals/principles/heuristics/patterns and discuss alternatives you considered and tradeoffs you made. If you used design pattern(s) explain which you used and why you used them, if you did not use any design patterns explain why not. Turn this in as a new `extension-justification.pdf` file.
 * **Updated object model:** Update your object model in `object-model.pdf` to reflect your extension mechanisms and the *Demeter* card.
 * **Update justification for building action:** Extend your discussion in `build-justification.pdf` of how the game validates and performs a build action assuming that *the active player has the Demeter card* and the opposing player has no card. Update both the justification and the object-level interaction diagram.
@@ -89,7 +89,7 @@ Homework submissions with a link in the wrong format will not receive any points
   * [ ] 5: Game starts and can be restarted (e.g., 'new game' button)
   * [ ] 5: Both players can place the initial workers (e.g. by clicking an empty grid)
   * [ ] 5: The GUI indicates the current player
-  * [ ] 10: The GUI indicates available actions (valid move/build actions, cancel) or rejects invalid actions
+  * [ ] 10: The GUI indicates available actions (valid move/build actions) or rejects invalid actions
   * [ ] 5: The game recognizes the end of a turn and moves to the next player
   * [ ] 15: The game and GUI correctly update after a move action
   * [ ] 15: The game and GUI correctly update after a build action
