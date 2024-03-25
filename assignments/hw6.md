@@ -19,7 +19,7 @@ Implement a web-based user interface for the game in React. The user interface s
 
 Generally, we leave details of the user interface to you. The user interface can be very simple. A five-by-five grid of buttons is likely sufficient with a button panel on the side for skipping optional actions and starting a new game. In the simplest case, you can represent workers by letters and towers with symbols on each button, e.g., `[[ ]]` for an empty level two tower, `[ X ]` for a tower with a worker from player *X*, and `[[[O]]]` for a tower with a dome. Background colors might indicate the active worker or valid locations for the next move or build. Text above the grid might indicate whose turn it is and what the next action is or who won. We do not grade for how pretty the game is.
 
-In this homework, we are requiring you to implement the user interface using React. We recommend a client-server solution where a React frontend communicates over JSON with a Java or TypeScript backend, as in Lab 7 and Homework 5. If you wrote your game logic in TypeScript, you can also deploy everything in the web browser without a server, using [browserify](https://browserify.org). For a client/server design, you need to design and make API calls to your backend: The backend will provide a response to the frontend (most likely to be the current game states), and then the frontend will update its user interface based on the response. We have no restriction on which frameworks or libraries can be used, but we ask you to use React for at least some of your frontend code.
+In this homework, we are requiring you to implement the user interface using React. We recommend a client-server solution where a React frontend communicates over JSON with your Java backend. For a client/server design, you need to design and make API calls to your backend: The backend will provide a response to the frontend (most likely to be the current game states), and then the frontend will update its user interface based on the response. We have no restriction on which frameworks or libraries can be used, but we ask you to use React for at least some of your frontend code.
 
 **Design requirements:** Decouple the user interface from the core game. That is, the core game should not have any dependency on parts of the user interface, where the backend API (e.g., NanoHTTP, express) is considered as part of the user interface. A simple way to test this is to check that the core implementation compiles and passes tests when all GUI code is deleted. 
 
@@ -61,8 +61,6 @@ You should expect that you may need to substantially revise your base game desig
 You do not need to include any GUI-related code in the models. You do not need to update `state-justification.pdf`. We will grade the design documents with a similar rubric to Homework 3, so if you have unaddressed grading feedback, you might want to take this into consideration when refining the documents.
 
 **Testing:**  Also update your test suite to test the functionality of the game logic (unit tests), of the god cards (unit tests), and of the game with and without god cards (integration tests). As before, we do not set any specific coverage goals but ask you to use your own judgment about how much testing is useful for you to have confidence in your implementation. 
-
-**Deployment** Optionally, for 10 bonus points you can deploy your Game online using Docker. The game should be runnable on a public IP address/URL. Unless you implement sessions (like the jobs in HW5), only a single game will be runnable on the server by whoever connects to it -- this is fine for the purpose of this assignment. We recommend using the Google Cloud Platform and following the recipe from Lab 12. Include the link to the game clearly visible at the beginning of the `README.md` file. Note: Releasing the working implementation publicly is fine, but as per our academic integrity policy do not publicly share your source code or design documents.
 
 
 ## Submitting your Work
@@ -140,10 +138,9 @@ Homework submissions with a link in the wrong format will not receive any points
 * [ ] 5: Code quality and style: Code meets language's conventions, is reasonably well documented, reasonably clean (e.g., avoids dead code), avoids common programming errors (e.g., == vs equals in Java)
 * [ ] 5: Reasonably cohesive commits and reasonable commit messages
 
-**Milestone 6b bonus points (0-34 points)** 
+**Milestone 6b bonus points (0-24 points)** 
 
  * [ ] 4: points per additional god card listed in the appendix, if it is implemented correctly, not hard-coded in the base game, tested, and usable through the user interface
- * [ ] 10: The game is deployed online. The corresponding `Dockerfile` can be found in the repository. The beginning of the readme includes a link to the server.
 
 
 

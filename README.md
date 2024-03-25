@@ -286,7 +286,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Apr 9</td>
-      <td><span class="assignment"><span class="hw">HW 6a due</span> Santorini: User Interface</td>
+      <td><span class="assignment"><span class="hw">HW 6a due</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/assignments/hw6.md">Santorini: User Interface</a></td>
       <td></td>
     </tr>
     <tr>
@@ -334,7 +334,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Apr 25</td>
-      <td><span class="assignment"><span class="hw">HW 6b due</span> Santorini: God Cards</td>
+      <td><span class="assignment"><span class="hw">HW 6b due</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/assignments/hw6.md">Santorini: God Cards</a></td>
       <td></td>
     </tr>
     <tr>
