@@ -252,7 +252,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Mar 26</td>
-      <td><bf>Libraries and Frameworks</bf></td>
+      <td><a href="https://docs.google.com/presentation/d/1zbcxh91PtLZbbJrCq1VKPWlqKxYNfj_nBORFb1vjS9g/edit?usp=sharing">Libraries and Frameworks</a></td>
       <td></td>
     </tr>
     <tr>
