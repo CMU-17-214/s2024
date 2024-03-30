@@ -1,6 +1,6 @@
 # Lab 11 - Introduction to Frameworks
 
-Repo link: https://github.com/CMU-17-214/f23-lab11
+Repo link: https://github.com/CMU-17-214/s24-rec11
 
 In this recitation, you will create a TicTacToe plug-in for a simple framework that facilitates the implementation of 2D grid games. To make grid game development straightforward, the game plugins must only implement the game’s logic. Everything else (plug-in registration, player management, GUI implementation, etc.) is done by the framework. We hope that this provides a good illustration for the kind of extension mechanisms that may be useful for implementing other extensible systems (e.g., Santorini God Cards).
 
@@ -29,7 +29,7 @@ Read the given framework implementation to familiarize yourself with what it pro
 
 Implement a simple TicTacToe plugin in the plugin package/directory. We have provided you with an implementation of the game TicTacToe in the games package/directory, which you can use in your plugin implementation.
 
-To register your plugin with the framework, add the fully-qualified class name of your plugin to the edu.cmu.cs.cs214.rec09.framework.core.GamePlugin file in the src/main/resources/META-INF/services/ directory; in App.java, a method called loadPlugins() will use java.util.ServiceLoader which will then use Java reflection to instantiate your plug-in and register it with the framework. 
+To register your plugin with the framework, add the fully-qualified class name of your plugin to the edu.cmu.cs.cs214.rec11.framework.core.GamePlugin file in the src/main/resources/META-INF/services/ directory; in App.java, a method called loadPlugins() will use java.util.ServiceLoader which will then use Java reflection to instantiate your plug-in and register it with the framework. 
 
 An implementation completely in TypeScript is provided to you in the typescript branch. Check out the code in src/pluginloader.ts to see how to load plugins in Typescript. Any .js file in the plugin directory is loaded (files created by the compiler from .ts files work fine). If it exports a method “init()” that method is called and expected to return an object implementing the GamePlugin interface. The loading code is fairly straightforward using promises.
 
