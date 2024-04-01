@@ -274,7 +274,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Apr 3</td>
-      <td><span class="rec">Lab 11</span> Frameworks/Extensibility</td>
+      <td><span class="rec">Lab 11</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab11.md">Frameworks/Extensibility</a></td>
       <td></td>
     </tr>
     <tr>
