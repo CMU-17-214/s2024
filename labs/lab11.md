@@ -40,6 +40,7 @@ mvn exec:exec
 ```
 in the backend folder. This will start the Java server at http://localhost:8080.
 
+### Set Up Typescript ###
 In the frontend folder, run
 
 ```
@@ -48,14 +49,3 @@ npm start
 ```
 
 This will start the frontend server at http://localhost:3000. You can update the frontend code as the server is running in the development mode (i.e., npm start). It will automatically recompile and reload.
-
-
-### Set Up Typescript ###
-
-Run
-```
-npm install
-npm run compile
-npm run serve
-```
-to start the server.
