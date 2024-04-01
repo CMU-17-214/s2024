@@ -291,7 +291,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Apr 9</td>
-      <td>TBD</td>
+      <td>DevOps</td>
       <td></td>
     </tr>
     <tr>
@@ -324,7 +324,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Apr 23</td>
-      <td>DevOps</td>
+      <td>Rust</td>
       <td></td>
     </tr>
     <tr>
