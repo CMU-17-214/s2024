@@ -115,7 +115,7 @@ Homework submissions with a link in the wrong format will not receive any points
 
  * [ ] 5: The updated domain model in file `domain-model.pdf` describes the vocabulary of the extended problem with reasonable completeness, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction.
  * [ ] 5: The updated system sequence diagram in file `system-sequence-diagram.pdf` is reasonably complete, uses suitable notation, and is at the right level of abstraction. It includes the setup for god cards.
- * [ ] 5: The updated behavior contract in file `contract.pdf` is reasonably complete regarding pre- and post-conditions under the assumption that the active player has the *Demeter* card.
+ * [ ] 5: The updated behavior contract in file `contract.pdf` is reasonably complete regarding pre- and post-conditions under the assumption that the active player has the *Minotaur* card.
  * [ ] 10: The updated  `build-justification.pdf` clearly describes and justifies how build actions are validated and performed. The model describes the behavior for the case where the active player has the Demeter card. We will check:
    - a. It is clear from the description what checks are performed to determine whether a build action is valid and how the state of the game is updated when the action is performed.
    - b. The description matches the interaction diagram.
