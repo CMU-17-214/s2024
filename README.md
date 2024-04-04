@@ -279,7 +279,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Apr 4</td>
-      <td>Organizing Systems at Scale: Modules</td>
+      <td><a href="https://docs.google.com/presentation/d/18LHDJQS7CLyHm2i9to0pF-5OKGm4J7o32gMwl-2_yCA/edit?usp=sharing">Organizing Systems at Scale: Modules</a></td>
       <td></td>
     </tr>
   </tbody>
