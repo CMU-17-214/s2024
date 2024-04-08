@@ -296,7 +296,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Apr 10</td>
-      <td><span class="rec">Lab 12</span> Test Double (Fakes, Mocks & Stubs)</td>
+      <td><span class="rec">Lab 12</span> <a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab12.md">Test Double (Fakes, Mocks & Stubs)</a></td>
       <td></td>
     </tr>
     <tr>
