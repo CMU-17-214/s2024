@@ -33,7 +33,7 @@ These three terms are usually used interchangeably in practice, but there are so
 
 ## Instructions
 
-Clone the AndrewWS repository from https://github.com/CMU-17-214/s24-lab12. Run the following commands to get started:
+Clone the AndrewWS repository from [https://github.com/CMU-17-214/s24-lab12](https://github.com/CMU-17-214/s24-lab12). Run the following commands to get started:
 ```
 mvn install
 mvn test
