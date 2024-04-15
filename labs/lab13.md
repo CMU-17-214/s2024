@@ -35,8 +35,6 @@ steps. If you do not, choose "Enable" when prompted.
 2. On the [Google Cloud Console](https://console.cloud.google.com), click the
    "Create a VM" button.
 
-![createvm](images/lab12/create-a-vm.png)
-
 3. Give your VM a name.
 
 4. It is ok to use the default E2 machines, but under the "Machine type"
@@ -53,7 +51,7 @@ steps. If you do not, choose "Enable" when prompted.
 
 7. You will be brought to a screen with a list of VM instances, and should see
 your newly created VM, together with an "External IP" that you can use to
-connect to it (in this case it's 34.69.81.171).
+connect to it (in this case it's 34.170.46.163).
 
 ![details](images/lab12/details.png)
 
@@ -66,7 +64,7 @@ to the lab 8 instructions.
    the Google Cloud service.
 
 9. Log in to your virtual machine with `gcloud compute ssh
-   --project=[YOUR_PROJECT_NAME] [YOUR_VM_NAME]`
+   --project=[YOUR_PROJECT_ID] [YOUR_VM_NAME]`
 
 10. We will be using Docker to deploy this lab. Install the latest version of
    Docker on the remote machine using [the instructions
