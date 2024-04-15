@@ -53,12 +53,12 @@ steps. If you do not, choose "Enable" when prompted.
 your newly created VM, together with an "External IP" that you can use to
 connect to it (in this case it's 34.170.46.163).
 
-![details](images/lab12/details.png)
+![details](images/lab12/lab13-vm-instances.png)
 
 ### Connecting to your virtual machine
 Similar to lab 8 and homework 5, you will be using the Google Cloud CLI `gcloud`
 to run these commands. If you do not have it set up properly, please refer back
-to the lab 8 instructions.
+to the lab 8 instructions.x
 
 8. On your local machine, run `gcloud init` to make sure you are logged in to
    the Google Cloud service.
