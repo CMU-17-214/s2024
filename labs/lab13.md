@@ -1,6 +1,6 @@
 # Lab 13 - Cloud Deployment
 
-Repo link: [https://github.com/CMU-17-214/f23-rec12-fixed]([https://github.com/CMU-17-214/f23-rec12-fixed](https://github.com/CMU-17-214/s24-lab13))
+Repo link: [https://github.com/CMU-17-214/s24-lab13](https://github.com/CMU-17-214/s24-lab13)
 
 In this recitation, you will deploy a version of the TicTacToe game to the
 Google Cloud Compute Engine service, allowing you to access it remotely. You can use the same strategy if you want to release your Santorini implementation publicly.
