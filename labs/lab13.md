@@ -23,7 +23,7 @@ This is out of the scope of this course, but other CMU courses focused on DevOps
 
 ### Fork the starter repository
 
-1. Create your own fork of [the starter repository](https://github.com/CMU-17-214/f23-rec12-fixed).
+1. Create your own fork of [the starter repository](https://github.com/CMU-17-214/s24-lab13).
 
 ### Setting up a new virtual machine
 We continue to use the Google Cloud Platform as in Lab 8 and HW5, for which we provided coupons to get free credits. NOTE: We do not have any additional backup coupons. If you have not yet resolved coupon issues, you will not be able to complete this portion of the lab or have to use another billing account. 
@@ -79,7 +79,7 @@ creating Docker images and pushing them to Docker Hub for deployment to your new
 virtual machine.
 
 12. Sign in to Docker Hub. Once you are signed in select "Create repository". For
-the name, select something reletavely memorable (e.g., "lab12"). We do not
+the name, select something reletavely memorable (e.g., "lab13"). We do not
 recommend creating a private repository, or you will have to sign in to your
 docker account on the virtual machine as well.
 
@@ -105,7 +105,7 @@ created in the previous step.
 16. You should be able to see the Docker image you just created with `docker images`.
 
 17. Now create a new Docker tag matching your Docker Hub repository name. To do this run
-`docker tag lab12
+`docker tag lab13
 [dockerhub-user-name]/[repository-name]`. `[dockerhub-user-name]/[repository-name]`
 should match your user name and the repository name you created on Docker Hub.
 
@@ -144,7 +144,7 @@ maven openjdk-17-jdk nodejs npm`.
 
 27. Clone your fork of the starter repository to the Google Cloud VM. Follow the instructions in its README.md to build a Docker image. You do not need to interact with Docker Hub with this method.
 
-28. Run the Docker image you just created with `docker run -p 80:8080 lab12`.
+28. Run the Docker image you just created with `docker run -p 80:8080 lab13`.
 
 29. Navigate your web browser to the IP address of the container you created earlier (i.e., the IP from step 7). You should see the same TicTacToe interface from Lab 7.
 
@@ -156,7 +156,7 @@ Before you make a change, you can use Ctrl-C to kill the running Docker image on
 
 31. From the machine you built the image on, re-build the front end by running `npm run compile` in the `front-end` directory.
 
-32. Re-build the Docker image using `docker build -t lab12 --platform linux/amd64 .`. *If you followed the Emergency Bailout Instructions above, skip the next step.
+32. Re-build the Docker image using `docker build -t lab13 --platform linux/amd64 .`. *If you followed the Emergency Bailout Instructions above, skip the next step.
 
 33. Update the tag, push to Docker hub, and pull the new image from Docker hub following steps 17 through 21 above.
 
