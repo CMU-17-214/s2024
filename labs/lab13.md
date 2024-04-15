@@ -122,6 +122,8 @@ created.
 [dockerhub-user-name]/[repository-name]`. Check that it exists using `docker
 images`.
 
+Note: If you run into a "permission denied while trying to connect to the Docker daemon socket" error here, run `sudo chmod 666 /var/run/docker.sock`.
+
 24. Run the Docker image you just pulled with `docker run -p 80:8080
 [dockerhub-user-name]/[repository-name]`. The parameter `-p 80:8080` maps port 8080 of the virtual machine to port 80 of your local machine. You should see the message "Running on
 port 8080!" if it is successful and should be able to access the game locally on port 80 (i.e., just `http://<IP>`).
