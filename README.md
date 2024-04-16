@@ -307,7 +307,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Apr 16</td>
-      <td>Supply Chain Security and Sustainability</td>
+      <td><a href="https://docs.google.com/presentation/d/1b2KFspQ9b3CBfu2pqFGQBFO-YmvrULvBNT6-D0bN-KA/edit?usp=sharing">Supply Chain Security and Sustainability</a></td>
       <td></td>
     </tr>
     <tr>
