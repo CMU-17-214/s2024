@@ -317,7 +317,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Apr 18</td>
-      <td>Static vs dynamic typing, static analysis</td>
+      <td><a href="https://docs.google.com/presentation/d/1ugJQqKx4NaY5QfkIyQNuJ3A9YXbKxYXl4mw_Ecxvl64/edit?usp=sharing">Static vs dynamic typing, static analysis</a></td>
       <td></td>
     </tr>
   </tbody>
