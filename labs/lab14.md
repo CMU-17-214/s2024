@@ -25,7 +25,7 @@ For each design pattern, you are expected to provide information in four section
 
 ### Download the cheatsheat
 
-1. Create a copy of the template at https://docs.google.com/document/d/1o-j6jTDt1VLfUzJaF_kp-3blUSpXp-U7BGSPdN4vt08/edit?usp=sharing
+1. Create a copy of the template at https://docs.google.com/document/d/1GHLfcVYqeluwD_B_Ry013GGh3VhosxUuReAxLlRfg9M/edit?usp=sharing
 
 ### Tips
 
