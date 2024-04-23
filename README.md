@@ -324,7 +324,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Apr 23</td>
-      <td>Rust</td>
+      <td><a href="https://docs.google.com/presentation/d/1dZledIyYwR2qahCHqfvpRdniZC5HZo4x7upOYrS5vvU/edit?usp=sharing">Rust</a></td>
       <td></td>
     </tr>
     <tr>
