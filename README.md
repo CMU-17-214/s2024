@@ -329,7 +329,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Apr 24</td>
-      <td><span class="rec">Lab 14</span> Design Pattern Review</td>
+      <td><span class="rec">Lab 14</span><a href="https://github.com/CMU-17-214/s2024/blob/main/labs/lab14.md">Design Pattern Review</td>
       <td></td>
     </tr>
     <tr>
