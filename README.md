@@ -339,7 +339,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Apr 25</td>
-      <td>Finale: Toward SE, Teams, Process</td>
+      <td><a href="https://docs.google.com/presentation/d/1pcc_rcliY4epT8iyUO4a6xrY_mWOMXtXPzkgcxaVPTQ/edit?usp=sharing">Finale: Toward SE, Teams, Process</a></td>
       <td></td>
     </tr>
   </tbody>
